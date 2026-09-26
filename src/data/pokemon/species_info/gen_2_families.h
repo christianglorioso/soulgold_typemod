@@ -1095,12 +1095,12 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
     [SPECIES_HOOTHOOT] =
     {
         .baseHP        = 60,
-        .baseAttack    = 30,
+        .baseAttack    = 36,
         .baseDefense   = 30,
         .baseSpeed     = 50,
         .baseSpAttack  = 36,
         .baseSpDefense = 56,
-        .types = MON_TYPES(TYPE_GHOST, TYPE_FLYING),
+        .types = MON_TYPES(TYPE_PSYCHIC, TYPE_FLYING),
         .catchRate = 255,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 52 : 58,
         .evYield_HP = 1,
@@ -1177,12 +1177,12 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
     [SPECIES_NOCTOWL] =
     {
         .baseHP        = 100,
-        .baseAttack    = 50,
+        .baseAttack    = 86,
         .baseDefense   = 50,
         .baseSpeed     = 70,
         .baseSpAttack  = P_UPDATED_STATS >= GEN_7 ? 86 : 76,
         .baseSpDefense = 96,
-        .types = MON_TYPES(TYPE_GHOST, TYPE_FLYING),
+        .types = MON_TYPES(TYPE_PSYCHIC, TYPE_FLYING),
         .catchRate = 90,
     #if P_UPDATED_EXP_YIELDS >= GEN_7
         .expYield = 158,
