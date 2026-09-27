@@ -12310,7 +12310,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON),
         .abilities = { ABILITY_AERILATE, ABILITY_AERILATE, ABILITY_AERILATE },
-        .innates = { ABILITY_WINDCALLER, ABILITY_BATTLE_ARMOR, ABILITY_RIVALRY },
+        .innates = { ABILITY_WINDCALLER, ABILITY_MOXIE, ABILITY_WINDBURST },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Salamence"),
     #if P_MODIFIED_MEGA_CRIES

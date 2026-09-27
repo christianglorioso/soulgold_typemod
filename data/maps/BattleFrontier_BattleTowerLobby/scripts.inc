@@ -1525,6 +1525,7 @@ BattleTowerBpMart2:
 	.2byte ITEM_BLUNDER_POLICY
 	.2byte ITEM_WEAKNESS_POLICY
 	.2byte ITEM_HEAVY_DUTY_BOOTS
+	.2byte ITEM_BERSERK_GENE
 	.2byte ITEM_NONE
 
 TowerLobbyDude::
