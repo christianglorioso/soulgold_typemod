@@ -1,3 +1,7 @@
+Most type, base stat, and ability changes are my own personal grievances with an otherwise flawless hack created by Rahtak.
+
+
+Below preserves the original Soulgold credits:
 # Johto focused expansion hack
 # Features:
 - Explore expanded Johto with new areas and biomes
