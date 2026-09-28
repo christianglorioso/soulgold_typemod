@@ -16794,6 +16794,7 @@ const struct ItemInfo gItemsInfo[] =
     {
         .name = ITEM_NAME("Berserk Gene"),
         .price = 20,
+        .bpCost = 10,
         .holdEffect = HOLD_EFFECT_BERSERK_GENE,
         .description = COMPOUND_STRING(
             "Sharply boosts\n"
