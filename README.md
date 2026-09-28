@@ -1,5 +1,7 @@
 Most type, base stat, and ability changes are my own personal grievances with an otherwise flawless hack created by Rahtak.
 
+The changes made can be browser in this repo's version of the Soulgold docs: https://christianglorioso.github.io/soulgold_typemod/
+
 
 Below preserves the original Soulgold credits:
 # Johto focused expansion hack
