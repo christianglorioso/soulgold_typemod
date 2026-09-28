@@ -16926,7 +16926,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     #else
         .abilities = { ABILITY_SWARM, ABILITY_NONE, ABILITY_STEADFAST },
     #endif
-        .innates = { ABILITY_HYPER_CUTTER, ABILITY_SHARPNESS, ABILITY_BUG_ATE },
+        .innates = { ABILITY_HYPER_CUTTER, ABILITY_BLINDING_SPEED, ABILITY_BUG_ATE },
 		.bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Scyther"),
         .cryId = CRY_SCYTHER,

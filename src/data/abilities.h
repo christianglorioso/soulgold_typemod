@@ -5789,4 +5789,13 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 7,
         .breakable = TRUE,
     },
+
+    [ABILITY_BLINDING_SPEED] =
+    {
+        .name = _("Blinding Speed"),
+        .description = COMPOUND_STRING("Unaffected by hazards."),
+        .longDescription = COMPOUND_STRING("Its blinding pace renders\n"
+                                           "all entry hazards useless."),
+        .aiRating = 7,
+    },
 };

@@ -12114,6 +12114,10 @@ bool32 IsBattlerAffectedByHazards(enum BattlerId battler, bool32 toxicSpikes)
     {
         ret = FALSE;
     }
+    else if (BattlerHasTrait(battler, ABILITY_BLINDING_SPEED))
+    {
+        ret = FALSE;
+    }
     else if (toxicSpikes && BattlerHasHeldItemEffect(battler, HOLD_EFFECT_HEAVY_DUTY_BOOTS, TRUE) && !IS_BATTLER_OF_TYPE(battler, TYPE_POISON))
     {
         ret = FALSE;
