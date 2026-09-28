@@ -2587,7 +2587,7 @@
       "name": "Blastoise",
       "types": [
         "TYPE_WATER",
-        "TYPE_WATER"
+        "TYPE_STEEL"
       ],
       "stats": {
         "hp": 79,
@@ -6071,7 +6071,7 @@
       "name": "Ekans",
       "types": [
         "TYPE_POISON",
-        "TYPE_POISON"
+        "TYPE_DARK"
       ],
       "stats": {
         "hp": 35,
@@ -6300,15 +6300,15 @@
       "name": "Arbok",
       "types": [
         "TYPE_POISON",
-        "TYPE_POISON"
+        "TYPE_DARK"
       ],
       "stats": {
-        "hp": 60,
-        "atk": 95,
-        "def": 69,
-        "spa": 65,
-        "spd": 79,
-        "spe": 80
+        "hp": 90,
+        "atk": 100,
+        "def": 100,
+        "spa": 40,
+        "spd": 80,
+        "spe": 100
       },
       "evYield": {
         "atk": 2
@@ -6318,7 +6318,7 @@
         "EGG_GROUP_DRAGON"
       ],
       "categories": [],
-      "bst": 448,
+      "bst": 510,
       "abilities": [
         "ABILITY_INTIMIDATE",
         "ABILITY_SHED_SKIN",
@@ -6540,9 +6540,9 @@
       ],
       "stats": {
         "hp": 35,
-        "atk": 55,
+        "atk": 60,
         "def": 40,
-        "spa": 50,
+        "spa": 45,
         "spd": 40,
         "spe": 90
       },
@@ -6832,11 +6832,11 @@
         "TYPE_ELECTRIC"
       ],
       "stats": {
-        "hp": 45,
-        "atk": 80,
-        "def": 50,
-        "spa": 75,
-        "spd": 60,
+        "hp": 60,
+        "atk": 100,
+        "def": 65,
+        "spa": 60,
+        "spd": 80,
         "spe": 120
       },
       "evYield": {
@@ -6846,7 +6846,7 @@
         "EGG_GROUP_FIELD"
       ],
       "categories": [],
-      "bst": 430,
+      "bst": 485,
       "abilities": [
         "ABILITY_STATIC",
         "ABILITY_LIGHTNING_ROD"
@@ -6858,7 +6858,7 @@
         "ABILITY_LIGHTNING_ROD"
       ],
       "innates": [
-        "ABILITY_PLUS",
+        "ABILITY_GENERALIST",
         "ABILITY_BATTERY",
         "ABILITY_MOXIE"
       ],
@@ -7082,9 +7082,9 @@
       ],
       "stats": {
         "hp": 60,
-        "atk": 90,
+        "atk": 100,
         "def": 55,
-        "spa": 90,
+        "spa": 80,
         "spd": 80,
         "spe": 110
       },
@@ -7379,9 +7379,9 @@
       ],
       "stats": {
         "hp": 60,
-        "atk": 85,
+        "atk": 80,
         "def": 50,
-        "spa": 95,
+        "spa": 100,
         "spd": 85,
         "spe": 110
       },
@@ -11843,7 +11843,7 @@
       "name": "Ninetales",
       "types": [
         "TYPE_FIRE",
-        "TYPE_FIRE"
+        "TYPE_GHOST"
       ],
       "stats": {
         "hp": 73,
@@ -11873,7 +11873,7 @@
         "ABILITY_DROUGHT"
       ],
       "innates": [
-        "ABILITY_PHANTOM_SOUL",
+        "ABILITY_FLAME_BODY",
         "ABILITY_MAGIC_BOUNCE",
         "ABILITY_CURSED_BODY"
       ],
@@ -21661,11 +21661,11 @@
       ],
       "stats": {
         "hp": 40,
-        "atk": 40,
+        "atk": 20,
         "def": 35,
-        "spa": 50,
+        "spa": 100,
         "spd": 100,
-        "spe": 70
+        "spe": 60
       },
       "evYield": {
         "spd": 1
@@ -21674,7 +21674,7 @@
         "EGG_GROUP_WATER_3"
       ],
       "categories": [],
-      "bst": 335,
+      "bst": 355,
       "abilities": [
         "ABILITY_CLEAR_BODY",
         "ABILITY_LIQUID_OOZE",
@@ -22088,11 +22088,11 @@
       ],
       "stats": {
         "hp": 80,
-        "atk": 70,
+        "atk": 50,
         "def": 65,
-        "spa": 80,
+        "spa": 120,
         "spd": 120,
-        "spe": 100
+        "spe": 80
       },
       "evYield": {
         "spd": 2
@@ -24284,7 +24284,7 @@
       "name": "Rapidash",
       "types": [
         "TYPE_FIRE",
-        "TYPE_FIRE"
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 65,
@@ -26745,7 +26745,7 @@
       "dex": 75,
       "name": "Farfetch'd",
       "types": [
-        "TYPE_NORMAL",
+        "TYPE_FLYING",
         "TYPE_FLYING"
       ],
       "stats": {
@@ -30151,12 +30151,12 @@
         "TYPE_GROUND"
       ],
       "stats": {
-        "hp": 35,
-        "atk": 45,
+        "hp": 75,
+        "atk": 85,
         "def": 160,
-        "spa": 30,
+        "spa": 55,
         "spd": 45,
-        "spe": 70
+        "spe": 90
       },
       "evYield": {
         "def": 1
@@ -30165,7 +30165,7 @@
         "EGG_GROUP_MINERAL"
       ],
       "categories": [],
-      "bst": 385,
+      "bst": 510,
       "abilities": [
         "ABILITY_ROCK_HEAD",
         "ABILITY_STURDY",
@@ -37850,8 +37850,8 @@
       ],
       "innates": [
         "ABILITY_HYPER_CUTTER",
-        "ABILITY_SHARPNESS",
-        "ABILITY_QUICK_DRAW"
+        "ABILITY_BLINDING_SPEED",
+        "ABILITY_BUG_ATE"
       ],
       "sprite": "sprites/pokemon/scyther.png",
       "shinySprite": "sprites/pokemon/scyther_shiny.png",
@@ -42547,11 +42547,11 @@
       ],
       "stats": {
         "hp": 65,
-        "atk": 75,
-        "def": 70,
-        "spa": 65,
-        "spd": 85,
-        "spe": 75
+        "atk": 100,
+        "def": 80,
+        "spa": 100,
+        "spd": 80,
+        "spe": 100
       },
       "evYield": {
         "spd": 1
@@ -42560,7 +42560,7 @@
         "EGG_GROUP_FIELD"
       ],
       "categories": [],
-      "bst": 435,
+      "bst": 525,
       "abilities": [
         "ABILITY_RUN_AWAY",
         "ABILITY_ADAPTABILITY",
@@ -43555,7 +43555,7 @@
       "name": "Porygon",
       "types": [
         "TYPE_NORMAL",
-        "TYPE_NORMAL"
+        "TYPE_ELECTRIC"
       ],
       "stats": {
         "hp": 65,
@@ -46964,7 +46964,7 @@
         "ABILITY_MULTISCALE"
       ],
       "innates": [
-        "ABILITY_MARVEL_SCALE",
+        "ABILITY_FAE_SOUL",
         "ABILITY_AERILATE",
         "ABILITY_HOSPITALITY"
       ],
@@ -47282,8 +47282,8 @@
         "ABILITY_MULTISCALE"
       ],
       "innates": [
-        "ABILITY_INNER_FOCUS",
-        "ABILITY_MARVEL_SCALE",
+        "ABILITY_FAE_SOUL",
+        "ABILITY_AERILATE",
         "ABILITY_GUARDIAN"
       ],
       "sprite": "sprites/pokemon/dragonite_mega.png",
@@ -49107,7 +49107,7 @@
       "name": "Meganium",
       "types": [
         "TYPE_GRASS",
-        "TYPE_GRASS"
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 80,
@@ -50035,7 +50035,7 @@
       "name": "Typhlosion",
       "types": [
         "TYPE_FIRE",
-        "TYPE_FIRE"
+        "TYPE_GROUND"
       ],
       "stats": {
         "hp": 78,
@@ -51259,7 +51259,7 @@
       "name": "Feraligatr",
       "types": [
         "TYPE_WATER",
-        "TYPE_WATER"
+        "TYPE_DARK"
       ],
       "stats": {
         "hp": 85,
@@ -51542,7 +51542,7 @@
       "name": "Feraligatr",
       "types": [
         "TYPE_WATER",
-        "TYPE_DRAGON"
+        "TYPE_DARK"
       ],
       "stats": {
         "hp": 85,
@@ -51577,8 +51577,8 @@
         "ABILITY_DRAGONIZE"
       ],
       "innates": [
+        "ABILITY_DRAGON_SOUL",
         "ABILITY_STRONG_JAW",
-        "ABILITY_INTIMIDATE",
         "ABILITY_TOUGH_CLAWS"
       ],
       "sprite": "sprites/pokemon/feraligatr_mega.png",
@@ -51768,14 +51768,14 @@
       "dex": 142,
       "name": "Hoothoot",
       "types": [
-        "TYPE_NORMAL",
+        "TYPE_PSYCHIC",
         "TYPE_FLYING"
       ],
       "stats": {
         "hp": 60,
-        "atk": 30,
+        "atk": 45,
         "def": 30,
-        "spa": 36,
+        "spa": 30,
         "spd": 56,
         "spe": 50
       },
@@ -51786,7 +51786,7 @@
         "EGG_GROUP_FLYING"
       ],
       "categories": [],
-      "bst": 262,
+      "bst": 271,
       "abilities": [
         "ABILITY_INSOMNIA",
         "ABILITY_KEEN_EYE",
@@ -51838,12 +51838,12 @@
           "move": "MOVE_DEFOG"
         },
         {
-          "level": 16,
-          "move": "MOVE_ZEN_HEADBUTT"
+          "level": 18,
+          "move": "MOVE_AIR_SLASH"
         },
         {
           "level": 18,
-          "move": "MOVE_AIR_SLASH"
+          "move": "MOVE_WING_ATTACK"
         },
         {
           "level": 19,
@@ -51852,6 +51852,10 @@
         {
           "level": 21,
           "move": "MOVE_EXTRASENSORY"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_ZEN_HEADBUTT"
         },
         {
           "level": 24,
@@ -51868,6 +51872,10 @@
         {
           "level": 33,
           "move": "MOVE_MOONBLAST"
+        },
+        {
+          "level": 33,
+          "move": "MOVE_PLAY_ROUGH"
         },
         {
           "level": 36,
@@ -51906,6 +51914,7 @@
         "MOVE_ECHOED_VOICE",
         "MOVE_STEEL_WING",
         "MOVE_ACROBATICS",
+        "MOVE_SWORDS_DANCE",
         "MOVE_SUBSTITUTE",
         "MOVE_FLY",
         "MOVE_FLASH"
@@ -51983,15 +51992,15 @@
       "dex": 143,
       "name": "Noctowl",
       "types": [
-        "TYPE_NORMAL",
+        "TYPE_PSYCHIC",
         "TYPE_FLYING"
       ],
       "stats": {
         "hp": 100,
-        "atk": 50,
-        "def": 50,
-        "spa": 86,
-        "spd": 96,
+        "atk": 100,
+        "def": 100,
+        "spa": 60,
+        "spd": 70,
         "spe": 70
       },
       "evYield": {
@@ -52001,7 +52010,7 @@
         "EGG_GROUP_FLYING"
       ],
       "categories": [],
-      "bst": 452,
+      "bst": 500,
       "abilities": [
         "ABILITY_INSOMNIA",
         "ABILITY_KEEN_EYE",
@@ -52059,12 +52068,12 @@
           "move": "MOVE_DEFOG"
         },
         {
-          "level": 16,
-          "move": "MOVE_ZEN_HEADBUTT"
+          "level": 18,
+          "move": "MOVE_AIR_SLASH"
         },
         {
           "level": 18,
-          "move": "MOVE_AIR_SLASH"
+          "move": "MOVE_WING_ATTACK"
         },
         {
           "level": 19,
@@ -52073,6 +52082,10 @@
         {
           "level": 23,
           "move": "MOVE_EXTRASENSORY"
+        },
+        {
+          "level": 23,
+          "move": "MOVE_ZEN_HEADBUTT"
         },
         {
           "level": 28,
@@ -52089,6 +52102,10 @@
         {
           "level": 43,
           "move": "MOVE_MOONBLAST"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_PLAY_ROUGH"
         },
         {
           "level": 48,
@@ -52136,6 +52153,7 @@
         "MOVE_ECHOED_VOICE",
         "MOVE_STEEL_WING",
         "MOVE_ACROBATICS",
+        "MOVE_SWORDS_DANCE",
         "MOVE_GIGA_IMPACT",
         "MOVE_SUBSTITUTE",
         "MOVE_FLY",
@@ -53904,9 +53922,9 @@
       ],
       "stats": {
         "hp": 20,
-        "atk": 40,
+        "atk": 45,
         "def": 15,
-        "spa": 35,
+        "spa": 30,
         "spd": 35,
         "spe": 60
       },
@@ -54085,9 +54103,9 @@
       ],
       "stats": {
         "hp": 20,
-        "atk": 40,
+        "atk": 45,
         "def": 15,
-        "spa": 35,
+        "spa": 30,
         "spd": 35,
         "spe": 60
       },
@@ -55461,12 +55479,12 @@
         "TYPE_FLYING"
       ],
       "stats": {
-        "hp": 65,
-        "atk": 75,
+        "hp": 70,
+        "atk": 60,
         "def": 70,
-        "spa": 95,
-        "spd": 70,
-        "spe": 95
+        "spa": 100,
+        "spd": 100,
+        "spe": 100
       },
       "evYield": {
         "spa": 1,
@@ -55476,7 +55494,7 @@
         "EGG_GROUP_FLYING"
       ],
       "categories": [],
-      "bst": 470,
+      "bst": 500,
       "abilities": [
         "ABILITY_SYNCHRONIZE",
         "ABILITY_EARLY_BIRD",
@@ -56133,7 +56151,7 @@
       "name": "Ampharos",
       "types": [
         "TYPE_ELECTRIC",
-        "TYPE_ELECTRIC"
+        "TYPE_DRAGON"
       ],
       "stats": {
         "hp": 90,
@@ -61496,7 +61514,7 @@
       "name": "Misdreavus",
       "types": [
         "TYPE_GHOST",
-        "TYPE_GHOST"
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 60,
@@ -69226,7 +69244,7 @@
       "name": "Porygon2",
       "types": [
         "TYPE_NORMAL",
-        "TYPE_NORMAL"
+        "TYPE_ELECTRIC"
       ],
       "stats": {
         "hp": 85,
@@ -72757,7 +72775,7 @@
       "dex": 213,
       "name": "Lugia",
       "types": [
-        "TYPE_PSYCHIC",
+        "TYPE_WATER",
         "TYPE_FLYING"
       ],
       "stats": {
@@ -73652,9 +73670,9 @@
       ],
       "stats": {
         "hp": 40,
-        "atk": 45,
+        "atk": 65,
         "def": 35,
-        "spa": 65,
+        "spa": 45,
         "spd": 55,
         "spe": 70
       },
@@ -73875,13 +73893,13 @@
       "name": "Grovyle",
       "types": [
         "TYPE_GRASS",
-        "TYPE_GRASS"
+        "TYPE_DRAGON"
       ],
       "stats": {
         "hp": 50,
-        "atk": 65,
+        "atk": 85,
         "def": 45,
-        "spa": 85,
+        "spa": 65,
         "spd": 65,
         "spe": 95
       },
@@ -74150,13 +74168,13 @@
       "name": "Sceptile",
       "types": [
         "TYPE_GRASS",
-        "TYPE_GRASS"
+        "TYPE_DRAGON"
       ],
       "stats": {
         "hp": 70,
-        "atk": 85,
+        "atk": 105,
         "def": 65,
-        "spa": 105,
+        "spa": 85,
         "spd": 85,
         "spe": 120
       },
@@ -74479,9 +74497,9 @@
       ],
       "stats": {
         "hp": 70,
-        "atk": 110,
+        "atk": 145,
         "def": 75,
-        "spa": 145,
+        "spa": 110,
         "spd": 85,
         "spe": 145
       },
@@ -87414,13 +87432,13 @@
       "name": "Vibrava",
       "types": [
         "TYPE_GROUND",
-        "TYPE_DRAGON"
+        "TYPE_BUG"
       ],
       "stats": {
         "hp": 50,
-        "atk": 70,
+        "atk": 50,
         "def": 50,
-        "spa": 50,
+        "spa": 70,
         "spd": 50,
         "spe": 70
       },
@@ -87448,7 +87466,7 @@
       ],
       "innates": [
         "ABILITY_SAND_FORCE",
-        "ABILITY_TINTED_LENS"
+        "ABILITY_RESONANCE"
       ],
       "sprite": "sprites/pokemon/vibrava.png",
       "shinySprite": "sprites/pokemon/vibrava_shiny.png",
@@ -87675,13 +87693,13 @@
       "name": "Flygon",
       "types": [
         "TYPE_GROUND",
-        "TYPE_DRAGON"
+        "TYPE_BUG"
       ],
       "stats": {
         "hp": 80,
-        "atk": 100,
+        "atk": 80,
         "def": 80,
-        "spa": 80,
+        "spa": 100,
         "spd": 80,
         "spe": 100
       },
@@ -87709,8 +87727,8 @@
       ],
       "innates": [
         "ABILITY_SAND_FORCE",
-        "ABILITY_TINTED_LENS",
-        "ABILITY_WINDCALLER"
+        "ABILITY_RESONANCE",
+        "ABILITY_DRAGON_SOUL"
       ],
       "sprite": "sprites/pokemon/flygon.png",
       "shinySprite": "sprites/pokemon/flygon_shiny.png",
@@ -90806,7 +90824,7 @@
       "name": "Milotic",
       "types": [
         "TYPE_WATER",
-        "TYPE_WATER"
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 95,
@@ -90839,7 +90857,7 @@
       ],
       "innates": [
         "ABILITY_GUARDIAN",
-        "ABILITY_FAE_SOUL",
+        "ABILITY_LIKE_A_DRAGON",
         "ABILITY_REGENERATOR"
       ],
       "sprite": "sprites/pokemon/milotic.png",
@@ -96228,8 +96246,8 @@
       ],
       "innates": [
         "ABILITY_WINDCALLER",
-        "ABILITY_BATTLE_ARMOR",
-        "ABILITY_RIVALRY"
+        "ABILITY_MOXIE",
+        "ABILITY_WINDBURST"
       ],
       "sprite": "sprites/pokemon/salamence_mega.png",
       "shinySprite": "sprites/pokemon/salamence_mega_shiny.png",
@@ -103104,7 +103122,7 @@
       "dex": 309,
       "name": "Starly",
       "types": [
-        "TYPE_NORMAL",
+        "TYPE_FLYING",
         "TYPE_FLYING"
       ],
       "stats": {
@@ -103330,7 +103348,7 @@
       "dex": 310,
       "name": "Staravia",
       "types": [
-        "TYPE_NORMAL",
+        "TYPE_FLYING",
         "TYPE_FLYING"
       ],
       "stats": {
@@ -103506,8 +103524,8 @@
       "dex": 311,
       "name": "Staraptor",
       "types": [
-        "TYPE_NORMAL",
-        "TYPE_FLYING"
+        "TYPE_FLYING",
+        "TYPE_FIGHTING"
       ],
       "stats": {
         "hp": 85,
@@ -103717,8 +103735,8 @@
       "dex": 311,
       "name": "Staraptor",
       "types": [
-        "TYPE_FIGHTING",
-        "TYPE_FLYING"
+        "TYPE_FLYING",
+        "TYPE_FIGHTING"
       ],
       "stats": {
         "hp": 85,
@@ -103888,14 +103906,14 @@
       "name": "Shinx",
       "types": [
         "TYPE_ELECTRIC",
-        "TYPE_ELECTRIC"
+        "TYPE_DARK"
       ],
       "stats": {
         "hp": 45,
         "atk": 65,
-        "def": 34,
+        "def": 35,
         "spa": 40,
-        "spd": 34,
+        "spd": 35,
         "spe": 45
       },
       "evYield": {
@@ -103905,21 +103923,21 @@
         "EGG_GROUP_FIELD"
       ],
       "categories": [],
-      "bst": 263,
+      "bst": 265,
       "abilities": [
-        "ABILITY_RIVALRY",
+        "ABILITY_DEFIANT",
         "ABILITY_INTIMIDATE",
         "ABILITY_GUTS"
       ],
       "regularAbilities": [
-        "ABILITY_RIVALRY",
+        "ABILITY_DEFIANT",
         "ABILITY_INTIMIDATE"
       ],
       "hiddenAbilities": [
         "ABILITY_GUTS"
       ],
       "innates": [
-        "ABILITY_STRONG_JAW"
+        "ABILITY_MOXIE"
       ],
       "sprite": "sprites/pokemon/shinx.png",
       "shinySprite": "sprites/pokemon/shinx_shiny.png",
@@ -103991,6 +104009,7 @@
       ],
       "tmhm": [
         "MOVE_TOXIC",
+        "MOVE_BULK_UP",
         "MOVE_HIDDEN_POWER",
         "MOVE_SUNNY_DAY",
         "MOVE_LIGHT_SCREEN",
@@ -104088,14 +104107,14 @@
       "name": "Luxio",
       "types": [
         "TYPE_ELECTRIC",
-        "TYPE_ELECTRIC"
+        "TYPE_DARK"
       ],
       "stats": {
         "hp": 60,
         "atk": 85,
-        "def": 49,
-        "spa": 60,
-        "spd": 49,
+        "def": 50,
+        "spa": 50,
+        "spd": 50,
         "spe": 60
       },
       "evYield": {
@@ -104105,22 +104124,22 @@
         "EGG_GROUP_FIELD"
       ],
       "categories": [],
-      "bst": 363,
+      "bst": 355,
       "abilities": [
-        "ABILITY_RIVALRY",
+        "ABILITY_DEFIANT",
         "ABILITY_INTIMIDATE",
         "ABILITY_GUTS"
       ],
       "regularAbilities": [
-        "ABILITY_RIVALRY",
+        "ABILITY_DEFIANT",
         "ABILITY_INTIMIDATE"
       ],
       "hiddenAbilities": [
         "ABILITY_GUTS"
       ],
       "innates": [
-        "ABILITY_STRONG_JAW",
-        "ABILITY_PACK_LEADER"
+        "ABILITY_MOXIE",
+        "ABILITY_STATIC_BURST"
       ],
       "sprite": "sprites/pokemon/luxio.png",
       "shinySprite": "sprites/pokemon/luxio_shiny.png",
@@ -104188,6 +104207,7 @@
       ],
       "tmhm": [
         "MOVE_TOXIC",
+        "MOVE_BULK_UP",
         "MOVE_HIDDEN_POWER",
         "MOVE_SUNNY_DAY",
         "MOVE_LIGHT_SCREEN",
@@ -104285,15 +104305,15 @@
       "name": "Luxray",
       "types": [
         "TYPE_ELECTRIC",
-        "TYPE_ELECTRIC"
+        "TYPE_DARK"
       ],
       "stats": {
-        "hp": 80,
+        "hp": 100,
         "atk": 120,
-        "def": 79,
-        "spa": 95,
-        "spd": 79,
-        "spe": 70
+        "def": 80,
+        "spa": 60,
+        "spd": 80,
+        "spe": 80
       },
       "evYield": {
         "atk": 3
@@ -104302,23 +104322,23 @@
         "EGG_GROUP_FIELD"
       ],
       "categories": [],
-      "bst": 523,
+      "bst": 520,
       "abilities": [
-        "ABILITY_RIVALRY",
+        "ABILITY_DEFIANT",
         "ABILITY_INTIMIDATE",
         "ABILITY_GUTS"
       ],
       "regularAbilities": [
-        "ABILITY_RIVALRY",
+        "ABILITY_DEFIANT",
         "ABILITY_INTIMIDATE"
       ],
       "hiddenAbilities": [
         "ABILITY_GUTS"
       ],
       "innates": [
-        "ABILITY_STRONG_JAW",
-        "ABILITY_PACK_LEADER",
-        "ABILITY_STATIC_BURST"
+        "ABILITY_MOXIE",
+        "ABILITY_STATIC_BURST",
+        "ABILITY_ELECTRIC_SURGE"
       ],
       "sprite": "sprites/pokemon/luxray.png",
       "shinySprite": "sprites/pokemon/luxray_shiny.png",
@@ -104402,6 +104422,7 @@
       ],
       "tmhm": [
         "MOVE_TOXIC",
+        "MOVE_BULK_UP",
         "MOVE_HIDDEN_POWER",
         "MOVE_SUNNY_DAY",
         "MOVE_HYPER_BEAM",
@@ -108265,7 +108286,7 @@
       "name": "Mismagius",
       "types": [
         "TYPE_GHOST",
-        "TYPE_GHOST"
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 60,
@@ -116746,7 +116767,7 @@
       "name": "Electivire",
       "types": [
         "TYPE_ELECTRIC",
-        "TYPE_ELECTRIC"
+        "TYPE_FIRE"
       ],
       "stats": {
         "hp": 75,
@@ -116997,7 +117018,7 @@
       "name": "Magmortar",
       "types": [
         "TYPE_FIRE",
-        "TYPE_FIRE"
+        "TYPE_DARK"
       ],
       "stats": {
         "hp": 75,
@@ -117528,7 +117549,7 @@
       "name": "Yanmega",
       "types": [
         "TYPE_BUG",
-        "TYPE_FLYING"
+        "TYPE_DRAGON"
       ],
       "stats": {
         "hp": 86,
@@ -117561,7 +117582,7 @@
       "innates": [
         "ABILITY_TECHNICIAN",
         "ABILITY_COMPOUND_EYES",
-        "ABILITY_AERILATE"
+        "ABILITY_WINDBURST"
       ],
       "sprite": "sprites/pokemon/yanmega.png",
       "shinySprite": "sprites/pokemon/yanmega_shiny.png",
@@ -118946,7 +118967,7 @@
       "name": "Porygon-Z",
       "types": [
         "TYPE_NORMAL",
-        "TYPE_NORMAL"
+        "TYPE_ELECTRIC"
       ],
       "stats": {
         "hp": 85,
@@ -126872,7 +126893,7 @@
       "name": "Serperior",
       "types": [
         "TYPE_GRASS",
-        "TYPE_GRASS"
+        "TYPE_DRAGON"
       ],
       "stats": {
         "hp": 75,
@@ -126904,7 +126925,7 @@
       "innates": [
         "ABILITY_PLANTATION",
         "ABILITY_HOBBLE",
-        "ABILITY_LIKE_A_DRAGON"
+        "ABILITY_HUNTER"
       ],
       "sprite": "sprites/pokemon/serperior.png",
       "shinySprite": "sprites/pokemon/serperior_shiny.png",
@@ -128487,7 +128508,7 @@
       "name": "Samurott",
       "types": [
         "TYPE_WATER",
-        "TYPE_WATER"
+        "TYPE_FIGHTING"
       ],
       "stats": {
         "hp": 95,
@@ -128518,7 +128539,7 @@
       "innates": [
         "ABILITY_RESTORING",
         "ABILITY_SHARPNESS",
-        "ABILITY_FIGHTER_SOUL"
+        "ABILITY_WATER_VEIL"
       ],
       "sprite": "sprites/pokemon/samurott.png",
       "shinySprite": "sprites/pokemon/samurott_shiny.png",
@@ -157580,7 +157601,7 @@
       "name": "Florges",
       "types": [
         "TYPE_FAIRY",
-        "TYPE_FAIRY"
+        "TYPE_GRASS"
       ],
       "stats": {
         "hp": 78,
@@ -174990,15 +175011,15 @@
       "name": "Lycanroc",
       "types": [
         "TYPE_ROCK",
-        "TYPE_ROCK"
+        "TYPE_NORMAL"
       ],
       "stats": {
-        "hp": 75,
-        "atk": 115,
-        "def": 65,
-        "spa": 55,
-        "spd": 65,
-        "spe": 112
+        "hp": 80,
+        "atk": 120,
+        "def": 80,
+        "spa": 40,
+        "spd": 60,
+        "spe": 110
       },
       "evYield": {
         "atk": 2
@@ -175007,7 +175028,7 @@
         "EGG_GROUP_FIELD"
       ],
       "categories": [],
-      "bst": 487,
+      "bst": 490,
       "abilities": [
         "ABILITY_KEEN_EYE",
         "ABILITY_SAND_RUSH",
@@ -175023,7 +175044,7 @@
       "innates": [
         "ABILITY_STURDY",
         "ABILITY_GUARD_DOG",
-        "ABILITY_BATTLE_ARMOR"
+        "ABILITY_MINDS_EYE"
       ],
       "sprite": "sprites/pokemon/lycanroc_midday.png",
       "shinySprite": "sprites/pokemon/lycanroc_midday_shiny.png",
@@ -175235,15 +175256,15 @@
       "name": "Lycanroc",
       "types": [
         "TYPE_ROCK",
-        "TYPE_ROCK"
+        "TYPE_DARK"
       ],
       "stats": {
-        "hp": 85,
-        "atk": 115,
-        "def": 75,
-        "spa": 55,
-        "spd": 75,
-        "spe": 82
+        "hp": 80,
+        "atk": 120,
+        "def": 80,
+        "spa": 40,
+        "spd": 60,
+        "spe": 110
       },
       "evYield": {
         "atk": 2
@@ -175252,7 +175273,7 @@
         "EGG_GROUP_FIELD"
       ],
       "categories": [],
-      "bst": 487,
+      "bst": 490,
       "abilities": [
         "ABILITY_KEEN_EYE",
         "ABILITY_VITAL_SPIRIT",
@@ -175268,7 +175289,7 @@
       "innates": [
         "ABILITY_STURDY",
         "ABILITY_MOODY",
-        "ABILITY_BATTLE_ARMOR"
+        "ABILITY_DARK_AURA"
       ],
       "sprite": "sprites/pokemon/lycanroc_midnight.png",
       "shinySprite": "sprites/pokemon/lycanroc_midnight_shiny.png",
@@ -175459,14 +175480,14 @@
       "name": "Lycanroc",
       "types": [
         "TYPE_ROCK",
-        "TYPE_ROCK"
+        "TYPE_FIGHTING"
       ],
       "stats": {
-        "hp": 75,
-        "atk": 117,
-        "def": 65,
-        "spa": 55,
-        "spd": 65,
+        "hp": 80,
+        "atk": 120,
+        "def": 80,
+        "spa": 40,
+        "spd": 60,
         "spe": 110
       },
       "evYield": {
@@ -175476,7 +175497,7 @@
         "EGG_GROUP_FIELD"
       ],
       "categories": [],
-      "bst": 487,
+      "bst": 490,
       "abilities": [
         "ABILITY_TOUGH_CLAWS"
       ],
@@ -175487,7 +175508,7 @@
       "innates": [
         "ABILITY_STURDY",
         "ABILITY_OWN_TEMPO",
-        "ABILITY_BATTLE_ARMOR"
+        "ABILITY_GUARD_DOG"
       ],
       "sprite": "sprites/pokemon/lycanroc_dusk.png",
       "shinySprite": "sprites/pokemon/lycanroc_dusk_shiny.png",
@@ -205864,6 +205885,7 @@
         "MOVE_VOLT_SWITCH",
         "MOVE_THUNDER_WAVE",
         "MOVE_DIG",
+        "MOVE_DRAIN_PUNCH",
         "MOVE_SUBSTITUTE",
         "MOVE_WILD_CHARGE",
         "MOVE_PLAY_ROUGH"
@@ -206052,6 +206074,7 @@
         "MOVE_VOLT_SWITCH",
         "MOVE_THUNDER_WAVE",
         "MOVE_DIG",
+        "MOVE_DRAIN_PUNCH",
         "MOVE_SUBSTITUTE",
         "MOVE_WILD_CHARGE",
         "MOVE_PLAY_ROUGH"
@@ -206256,6 +206279,7 @@
         "MOVE_VOLT_SWITCH",
         "MOVE_THUNDER_WAVE",
         "MOVE_DIG",
+        "MOVE_DRAIN_PUNCH",
         "MOVE_GRASS_KNOT",
         "MOVE_SUBSTITUTE",
         "MOVE_WILD_CHARGE",
@@ -209014,7 +209038,7 @@
         "ABILITY_PICKPOCKET"
       ],
       "innates": [
-        "ABILITY_SWEET_VEIL"
+        "ABILITY_PRANKSTER"
       ],
       "sprite": "sprites/pokemon/tinkatink.png",
       "shinySprite": "sprites/pokemon/tinkatink_shiny.png",
@@ -209200,7 +209224,7 @@
         "ABILITY_PICKPOCKET"
       ],
       "innates": [
-        "ABILITY_SWEET_VEIL",
+        "ABILITY_PRANKSTER",
         "ABILITY_MAGNET_PULL"
       ],
       "sprite": "sprites/pokemon/tinkatuff.png",
@@ -209409,7 +209433,7 @@
         "ABILITY_PICKPOCKET"
       ],
       "innates": [
-        "ABILITY_SWEET_VEIL",
+        "ABILITY_PRANKSTER",
         "ABILITY_MAGNET_PULL",
         "ABILITY_STEELWORKER"
       ],
@@ -231330,12 +231354,6 @@
             "sprite": "sprites/pokemon/salamence.png"
           },
           {
-            "species": "SPECIES_SALAMENCE_MEGA",
-            "name": "Salamence",
-            "dex": 286,
-            "sprite": "sprites/pokemon/salamence_mega.png"
-          },
-          {
             "species": "SPECIES_DIALGA",
             "name": "Dialga",
             "dex": 371,
@@ -231376,24 +231394,6 @@
             "name": "Aegislash",
             "dex": 490,
             "sprite": "sprites/pokemon/aegislash_blade.png"
-          },
-          {
-            "species": "SPECIES_LYCANROC_MIDDAY",
-            "name": "Lycanroc",
-            "dex": 539,
-            "sprite": "sprites/pokemon/lycanroc_midday.png"
-          },
-          {
-            "species": "SPECIES_LYCANROC_MIDNIGHT",
-            "name": "Lycanroc",
-            "dex": 539,
-            "sprite": "sprites/pokemon/lycanroc_midnight.png"
-          },
-          {
-            "species": "SPECIES_LYCANROC_DUSK",
-            "name": "Lycanroc",
-            "dex": 539,
-            "sprite": "sprites/pokemon/lycanroc_dusk.png"
           },
           {
             "species": "SPECIES_GOLISOPOD",
@@ -234011,12 +234011,6 @@
             "sprite": "sprites/pokemon/feraligatr.png"
           },
           {
-            "species": "SPECIES_FERALIGATR_MEGA",
-            "name": "Feraligatr",
-            "dex": 141,
-            "sprite": "sprites/pokemon/feraligatr_mega.png"
-          },
-          {
             "species": "SPECIES_SCIZOR",
             "name": "Scizor",
             "dex": 183,
@@ -236468,12 +236462,6 @@
             "sprite": "sprites/pokemon/articuno_galar.png"
           },
           {
-            "species": "SPECIES_DRAGONITE_MEGA",
-            "name": "Dragonite",
-            "dex": 130,
-            "sprite": "sprites/pokemon/dragonite_mega.png"
-          },
-          {
             "species": "SPECIES_SLOWKING",
             "name": "Slowking",
             "dex": 174,
@@ -236874,6 +236862,12 @@
             "name": "Phione",
             "dex": 377,
             "sprite": "sprites/pokemon/phione.png"
+          },
+          {
+            "species": "SPECIES_SAMUROTT",
+            "name": "Samurott",
+            "dex": 391,
+            "sprite": "sprites/pokemon/samurott.png"
           },
           {
             "species": "SPECIES_BASCULIN_WHITE_STRIPED",
@@ -238051,6 +238045,12 @@
             "sprite": "sprites/pokemon/charizard_mega_x.png"
           },
           {
+            "species": "SPECIES_NINETALES",
+            "name": "Ninetales",
+            "dex": 36,
+            "sprite": "sprites/pokemon/ninetales.png"
+          },
+          {
             "species": "SPECIES_CYNDAQUIL",
             "name": "Cyndaquil",
             "dex": 136,
@@ -239135,12 +239135,6 @@
             "sprite": "sprites/pokemon/pikachu.png"
           },
           {
-            "species": "SPECIES_PIKACHU_STARTER",
-            "name": "Pikachu",
-            "dex": 23,
-            "sprite": "sprites/pokemon/pikachu_starter.png"
-          },
-          {
             "species": "SPECIES_RAICHU",
             "name": "Raichu",
             "dex": 24,
@@ -239774,18 +239768,6 @@
           }
         ],
         "innate": [
-          {
-            "species": "SPECIES_DRAGONITE",
-            "name": "Dragonite",
-            "dex": 130,
-            "sprite": "sprites/pokemon/dragonite.png"
-          },
-          {
-            "species": "SPECIES_DRAGONITE_MEGA",
-            "name": "Dragonite",
-            "dex": 130,
-            "sprite": "sprites/pokemon/dragonite_mega.png"
-          },
           {
             "species": "SPECIES_KINGDRA",
             "name": "Kingdra",
@@ -241661,24 +241643,6 @@
             "sprite": "sprites/pokemon/nidoking.png"
           },
           {
-            "species": "SPECIES_SHINX",
-            "name": "Shinx",
-            "dex": 312,
-            "sprite": "sprites/pokemon/shinx.png"
-          },
-          {
-            "species": "SPECIES_LUXIO",
-            "name": "Luxio",
-            "dex": 313,
-            "sprite": "sprites/pokemon/luxio.png"
-          },
-          {
-            "species": "SPECIES_LUXRAY",
-            "name": "Luxray",
-            "dex": 314,
-            "sprite": "sprites/pokemon/luxray.png"
-          },
-          {
             "species": "SPECIES_AXEW",
             "name": "Axew",
             "dex": 436,
@@ -241721,12 +241685,6 @@
             "name": "Salamence",
             "dex": 286,
             "sprite": "sprites/pokemon/salamence.png"
-          },
-          {
-            "species": "SPECIES_SALAMENCE_MEGA",
-            "name": "Salamence",
-            "dex": 286,
-            "sprite": "sprites/pokemon/salamence_mega.png"
           }
         ]
       }
@@ -245179,18 +245137,6 @@
             "sprite": "sprites/pokemon/starmie_mega.png"
           },
           {
-            "species": "SPECIES_VIBRAVA",
-            "name": "Vibrava",
-            "dex": 257,
-            "sprite": "sprites/pokemon/vibrava.png"
-          },
-          {
-            "species": "SPECIES_FLYGON",
-            "name": "Flygon",
-            "dex": 258,
-            "sprite": "sprites/pokemon/flygon.png"
-          },
-          {
             "species": "SPECIES_MALAMAR",
             "name": "Malamar",
             "dex": 492,
@@ -247346,6 +247292,24 @@
             "name": "Zapdos",
             "dex": 126,
             "sprite": "sprites/pokemon/zapdos_galar.png"
+          },
+          {
+            "species": "SPECIES_SHINX",
+            "name": "Shinx",
+            "dex": 312,
+            "sprite": "sprites/pokemon/shinx.png"
+          },
+          {
+            "species": "SPECIES_LUXIO",
+            "name": "Luxio",
+            "dex": 313,
+            "sprite": "sprites/pokemon/luxio.png"
+          },
+          {
+            "species": "SPECIES_LUXRAY",
+            "name": "Luxray",
+            "dex": 314,
+            "sprite": "sprites/pokemon/luxray.png"
           },
           {
             "species": "SPECIES_PAWNIARD",
@@ -250113,6 +250077,30 @@
             "sprite": "sprites/pokemon/glalie_mega.png"
           },
           {
+            "species": "SPECIES_SALAMENCE_MEGA",
+            "name": "Salamence",
+            "dex": 286,
+            "sprite": "sprites/pokemon/salamence_mega.png"
+          },
+          {
+            "species": "SPECIES_SHINX",
+            "name": "Shinx",
+            "dex": 312,
+            "sprite": "sprites/pokemon/shinx.png"
+          },
+          {
+            "species": "SPECIES_LUXIO",
+            "name": "Luxio",
+            "dex": 313,
+            "sprite": "sprites/pokemon/luxio.png"
+          },
+          {
+            "species": "SPECIES_LUXRAY",
+            "name": "Luxray",
+            "dex": 314,
+            "sprite": "sprites/pokemon/luxray.png"
+          },
+          {
             "species": "SPECIES_GALLADE",
             "name": "Gallade",
             "dex": 363,
@@ -250723,6 +250711,24 @@
             "name": "Meowscarada",
             "dex": 625,
             "sprite": "sprites/pokemon/meowscarada_mega.png"
+          },
+          {
+            "species": "SPECIES_TINKATINK",
+            "name": "Tinkatink",
+            "dex": 649,
+            "sprite": "sprites/pokemon/tinkatink.png"
+          },
+          {
+            "species": "SPECIES_TINKATUFF",
+            "name": "Tinkatuff",
+            "dex": 650,
+            "sprite": "sprites/pokemon/tinkatuff.png"
+          },
+          {
+            "species": "SPECIES_TINKATON",
+            "name": "Tinkaton",
+            "dex": 651,
+            "sprite": "sprites/pokemon/tinkaton.png"
           }
         ]
       }
@@ -251914,24 +251920,6 @@
             "sprite": "sprites/pokemon/glalie_mega.png"
           },
           {
-            "species": "SPECIES_SHINX",
-            "name": "Shinx",
-            "dex": 312,
-            "sprite": "sprites/pokemon/shinx.png"
-          },
-          {
-            "species": "SPECIES_LUXIO",
-            "name": "Luxio",
-            "dex": 313,
-            "sprite": "sprites/pokemon/luxio.png"
-          },
-          {
-            "species": "SPECIES_LUXRAY",
-            "name": "Luxray",
-            "dex": 314,
-            "sprite": "sprites/pokemon/luxray.png"
-          },
-          {
             "species": "SPECIES_GIBLE",
             "name": "Gible",
             "dex": 334,
@@ -252128,24 +252116,6 @@
             "name": "Enamorus",
             "dex": 622,
             "sprite": "sprites/pokemon/enamorus_therian.png"
-          },
-          {
-            "species": "SPECIES_TINKATINK",
-            "name": "Tinkatink",
-            "dex": 649,
-            "sprite": "sprites/pokemon/tinkatink.png"
-          },
-          {
-            "species": "SPECIES_TINKATUFF",
-            "name": "Tinkatuff",
-            "dex": 650,
-            "sprite": "sprites/pokemon/tinkatuff.png"
-          },
-          {
-            "species": "SPECIES_TINKATON",
-            "name": "Tinkaton",
-            "dex": 651,
-            "sprite": "sprites/pokemon/tinkaton.png"
           },
           {
             "species": "SPECIES_SCREAM_TAIL",
@@ -252765,10 +252735,10 @@
             "sprite": "sprites/pokemon/dragonite.png"
           },
           {
-            "species": "SPECIES_YANMEGA",
-            "name": "Yanmega",
-            "dex": 357,
-            "sprite": "sprites/pokemon/yanmega.png"
+            "species": "SPECIES_DRAGONITE_MEGA",
+            "name": "Dragonite",
+            "dex": 130,
+            "sprite": "sprites/pokemon/dragonite_mega.png"
           },
           {
             "species": "SPECIES_ROTOM_FAN",
@@ -252852,6 +252822,12 @@
             "name": "Honchkrow",
             "dex": 328,
             "sprite": "sprites/pokemon/honchkrow.png"
+          },
+          {
+            "species": "SPECIES_LYCANROC_MIDNIGHT",
+            "name": "Lycanroc",
+            "dex": 539,
+            "sprite": "sprites/pokemon/lycanroc_midnight.png"
           },
           {
             "species": "SPECIES_OBSTAGOON",
@@ -254951,6 +254927,12 @@
             "name": "Golem",
             "dex": 68,
             "sprite": "sprites/pokemon/golem_alola.png"
+          },
+          {
+            "species": "SPECIES_LUXRAY",
+            "name": "Luxray",
+            "dex": 314,
+            "sprite": "sprites/pokemon/luxray.png"
           }
         ]
       }
@@ -256259,12 +256241,6 @@
             "sprite": "sprites/pokemon/dugtrio.png"
           },
           {
-            "species": "SPECIES_SCYTHER",
-            "name": "Scyther",
-            "dex": 107,
-            "sprite": "sprites/pokemon/scyther.png"
-          },
-          {
             "species": "SPECIES_CROBAT",
             "name": "Crobat",
             "dex": 146,
@@ -256959,6 +256935,12 @@
             "name": "Lycanroc",
             "dex": 539,
             "sprite": "sprites/pokemon/lycanroc_midday.png"
+          },
+          {
+            "species": "SPECIES_LYCANROC_DUSK",
+            "name": "Lycanroc",
+            "dex": 539,
+            "sprite": "sprites/pokemon/lycanroc_dusk.png"
           },
           {
             "species": "SPECIES_OBSTAGOON",
@@ -257661,12 +257643,6 @@
             "sprite": "sprites/pokemon/farfetchd.png"
           },
           {
-            "species": "SPECIES_SCYTHER",
-            "name": "Scyther",
-            "dex": 107,
-            "sprite": "sprites/pokemon/scyther.png"
-          },
-          {
             "species": "SPECIES_PINSIR_MEGA",
             "name": "Pinsir",
             "dex": 110,
@@ -258328,6 +258304,12 @@
             "name": "Gallade",
             "dex": 363,
             "sprite": "sprites/pokemon/gallade_mega.png"
+          },
+          {
+            "species": "SPECIES_LYCANROC_MIDDAY",
+            "name": "Lycanroc",
+            "dex": 539,
+            "sprite": "sprites/pokemon/lycanroc_midday.png"
           }
         ]
       }
@@ -258720,7 +258702,14 @@
       "slug": "bug-ate",
       "usage": {
         "base": [],
-        "innate": []
+        "innate": [
+          {
+            "species": "SPECIES_SCYTHER",
+            "name": "Scyther",
+            "dex": 107,
+            "sprite": "sprites/pokemon/scyther.png"
+          }
+        ]
       }
     },
     "ABILITY_GHOST_ATE": {
@@ -259395,18 +259384,6 @@
             "name": "Manectric",
             "dex": 249,
             "sprite": "sprites/pokemon/manectric_mega.png"
-          },
-          {
-            "species": "SPECIES_LUXIO",
-            "name": "Luxio",
-            "dex": 313,
-            "sprite": "sprites/pokemon/luxio.png"
-          },
-          {
-            "species": "SPECIES_LUXRAY",
-            "name": "Luxray",
-            "dex": 314,
-            "sprite": "sprites/pokemon/luxray.png"
           },
           {
             "species": "SPECIES_WEAVILE",
@@ -260162,12 +260139,6 @@
             "name": "Lopunny",
             "dex": 326,
             "sprite": "sprites/pokemon/lopunny.png"
-          },
-          {
-            "species": "SPECIES_SAMUROTT",
-            "name": "Samurott",
-            "dex": 391,
-            "sprite": "sprites/pokemon/samurott.png"
           }
         ]
       }
@@ -260271,12 +260242,6 @@
             "name": "Vulpix",
             "dex": 35,
             "sprite": "sprites/pokemon/vulpix.png"
-          },
-          {
-            "species": "SPECIES_NINETALES",
-            "name": "Ninetales",
-            "dex": 36,
-            "sprite": "sprites/pokemon/ninetales.png"
           }
         ]
       }
@@ -260421,10 +260386,22 @@
             "sprite": "sprites/pokemon/gyarados.png"
           },
           {
+            "species": "SPECIES_FERALIGATR_MEGA",
+            "name": "Feraligatr",
+            "dex": 141,
+            "sprite": "sprites/pokemon/feraligatr_mega.png"
+          },
+          {
             "species": "SPECIES_SCEPTILE",
             "name": "Sceptile",
             "dex": 218,
             "sprite": "sprites/pokemon/sceptile.png"
+          },
+          {
+            "species": "SPECIES_FLYGON",
+            "name": "Flygon",
+            "dex": 258,
+            "sprite": "sprites/pokemon/flygon.png"
           }
         ]
       }
@@ -260460,10 +260437,16 @@
         "base": [],
         "innate": [
           {
-            "species": "SPECIES_MILOTIC",
-            "name": "Milotic",
-            "dex": 270,
-            "sprite": "sprites/pokemon/milotic.png"
+            "species": "SPECIES_DRAGONITE",
+            "name": "Dragonite",
+            "dex": 130,
+            "sprite": "sprites/pokemon/dragonite.png"
+          },
+          {
+            "species": "SPECIES_DRAGONITE_MEGA",
+            "name": "Dragonite",
+            "dex": 130,
+            "sprite": "sprites/pokemon/dragonite_mega.png"
           }
         ]
       }
@@ -260934,6 +260917,12 @@
         "base": [],
         "innate": [
           {
+            "species": "SPECIES_LUXIO",
+            "name": "Luxio",
+            "dex": 313,
+            "sprite": "sprites/pokemon/luxio.png"
+          },
+          {
             "species": "SPECIES_LUXRAY",
             "name": "Luxray",
             "dex": 314,
@@ -261346,6 +261335,12 @@
         "base": [],
         "innate": [
           {
+            "species": "SPECIES_PIKACHU_STARTER",
+            "name": "Pikachu",
+            "dex": 23,
+            "sprite": "sprites/pokemon/pikachu_starter.png"
+          },
+          {
             "species": "SPECIES_EEVEE_STARTER",
             "name": "Eevee",
             "dex": 116,
@@ -261451,6 +261446,18 @@
             "name": "Yanma",
             "dex": 168,
             "sprite": "sprites/pokemon/yanma.png"
+          },
+          {
+            "species": "SPECIES_SALAMENCE_MEGA",
+            "name": "Salamence",
+            "dex": 286,
+            "sprite": "sprites/pokemon/salamence_mega.png"
+          },
+          {
+            "species": "SPECIES_YANMEGA",
+            "name": "Yanmega",
+            "dex": 357,
+            "sprite": "sprites/pokemon/yanmega.png"
           },
           {
             "species": "SPECIES_TORNADUS_INCARNATE",
@@ -262084,12 +262091,6 @@
             "name": "Pelipper",
             "dex": 228,
             "sprite": "sprites/pokemon/pelipper.png"
-          },
-          {
-            "species": "SPECIES_FLYGON",
-            "name": "Flygon",
-            "dex": 258,
-            "sprite": "sprites/pokemon/flygon.png"
           },
           {
             "species": "SPECIES_SALAMENCE",
@@ -263873,6 +263874,12 @@
             "name": "Arbok",
             "dex": 22,
             "sprite": "sprites/pokemon/arbok.png"
+          },
+          {
+            "species": "SPECIES_SERPERIOR",
+            "name": "Serperior",
+            "dex": 385,
+            "sprite": "sprites/pokemon/serperior.png"
           }
         ]
       }
@@ -265722,10 +265729,10 @@
         "base": [],
         "innate": [
           {
-            "species": "SPECIES_SERPERIOR",
-            "name": "Serperior",
-            "dex": 385,
-            "sprite": "sprites/pokemon/serperior.png"
+            "species": "SPECIES_MILOTIC",
+            "name": "Milotic",
+            "dex": 270,
+            "sprite": "sprites/pokemon/milotic.png"
           }
         ]
       }
@@ -265884,6 +265891,18 @@
       "usage": {
         "base": [],
         "innate": [
+          {
+            "species": "SPECIES_VIBRAVA",
+            "name": "Vibrava",
+            "dex": 257,
+            "sprite": "sprites/pokemon/vibrava.png"
+          },
+          {
+            "species": "SPECIES_FLYGON",
+            "name": "Flygon",
+            "dex": 258,
+            "sprite": "sprites/pokemon/flygon.png"
+          },
           {
             "species": "SPECIES_MELOETTA_ARIA",
             "name": "Meloetta",
@@ -266053,6 +266072,29 @@
           }
         ],
         "innate": []
+      }
+    },
+    "ABILITY_BLINDING_SPEED": {
+      "constant": "ABILITY_BLINDING_SPEED",
+      "name": "Blinding Speed",
+      "description": "Its blinding pace renders all entry hazards useless.",
+      "power": 0,
+      "accuracy": 0,
+      "pp": 0,
+      "priority": 0,
+      "type": "",
+      "category": "",
+      "slug": "blinding-speed",
+      "usage": {
+        "base": [],
+        "innate": [
+          {
+            "species": "SPECIES_SCYTHER",
+            "name": "Scyther",
+            "dex": 107,
+            "sprite": "sprites/pokemon/scyther.png"
+          }
+        ]
       }
     }
   },
@@ -273255,9 +273297,13 @@
         {
           "map": "Lake of Rage",
           "source": "Item ball"
+        },
+        {
+          "map": "Indigo Plateau Pokemon Center",
+          "source": "Mart"
         }
       ],
-      "location": "Lake of Rage (Item ball)",
+      "location": "Lake of Rage (Item ball); Indigo Plateau Pokemon Center (Mart)",
       "slug": "black-augurite"
     },
     {
@@ -273303,9 +273349,13 @@
         {
           "map": "Dark Cave North Side",
           "source": "Item ball"
+        },
+        {
+          "map": "Indigo Plateau Pokemon Center",
+          "source": "Mart"
         }
       ],
-      "location": "Dark Cave North Side (Item ball)",
+      "location": "Dark Cave North Side (Item ball); Indigo Plateau Pokemon Center (Mart)",
       "slug": "peat-block"
     },
     {
@@ -273321,9 +273371,13 @@
         {
           "map": "Ruins of Alph Puzzle And Reward Chambers",
           "source": "Item ball"
+        },
+        {
+          "map": "Battle Tower",
+          "source": "BP shop"
         }
       ],
-      "location": "Ruins of Alph Puzzle And Reward Chambers (Item ball)",
+      "location": "Ruins of Alph Puzzle And Reward Chambers (Item ball); Battle Tower (BP shop)",
       "slug": "berserk-gene"
     },
     {
@@ -295516,8 +295570,8 @@
           "displayName": "Scyther",
           "innates": [
             "ABILITY_HYPER_CUTTER",
-            "ABILITY_SHARPNESS",
-            "ABILITY_QUICK_DRAW"
+            "ABILITY_BLINDING_SPEED",
+            "ABILITY_BUG_ATE"
           ],
           "itemConstant": "ITEM_BERRY_JUICE",
           "itemName": "Berry Juice",
@@ -298297,7 +298351,7 @@
           "innates": [
             "ABILITY_STURDY",
             "ABILITY_GUARD_DOG",
-            "ABILITY_BATTLE_ARMOR"
+            "ABILITY_MINDS_EYE"
           ],
           "itemConstant": "ITEM_LOADED_DICE",
           "itemName": "Loaded Dice",
@@ -299018,7 +299072,7 @@
           "displayName": "Milotic",
           "innates": [
             "ABILITY_GUARDIAN",
-            "ABILITY_FAE_SOUL",
+            "ABILITY_LIKE_A_DRAGON",
             "ABILITY_REGENERATOR"
           ],
           "itemConstant": "",
@@ -299871,8 +299925,8 @@
           "constant": "SPECIES_LUXIO",
           "displayName": "Luxio",
           "innates": [
-            "ABILITY_STRONG_JAW",
-            "ABILITY_PACK_LEADER"
+            "ABILITY_MOXIE",
+            "ABILITY_STATIC_BURST"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -303134,7 +303188,7 @@
           "constant": "SPECIES_NINETALES",
           "displayName": "Ninetales",
           "innates": [
-            "ABILITY_PHANTOM_SOUL",
+            "ABILITY_FLAME_BODY",
             "ABILITY_MAGIC_BOUNCE",
             "ABILITY_CURSED_BODY"
           ],
@@ -303704,7 +303758,7 @@
           "displayName": "Vibrava",
           "innates": [
             "ABILITY_SAND_FORCE",
-            "ABILITY_TINTED_LENS"
+            "ABILITY_RESONANCE"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -304918,7 +304972,7 @@
           "innates": [
             "ABILITY_STURDY",
             "ABILITY_GUARD_DOG",
-            "ABILITY_BATTLE_ARMOR"
+            "ABILITY_MINDS_EYE"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -305656,7 +305710,7 @@
           "constant": "SPECIES_TINKATON",
           "displayName": "Tinkaton",
           "innates": [
-            "ABILITY_SWEET_VEIL",
+            "ABILITY_PRANKSTER",
             "ABILITY_MAGNET_PULL",
             "ABILITY_STEELWORKER"
           ],
@@ -306774,7 +306828,7 @@
           "constant": "SPECIES_TINKATON",
           "displayName": "Tinkaton",
           "innates": [
-            "ABILITY_SWEET_VEIL",
+            "ABILITY_PRANKSTER",
             "ABILITY_MAGNET_PULL",
             "ABILITY_STEELWORKER"
           ],
@@ -308283,7 +308337,7 @@
           "constant": "SPECIES_TINKATON",
           "displayName": "Tinkaton",
           "innates": [
-            "ABILITY_SWEET_VEIL",
+            "ABILITY_PRANKSTER",
             "ABILITY_MAGNET_PULL",
             "ABILITY_STEELWORKER"
           ],
@@ -309083,7 +309137,7 @@
           "constant": "SPECIES_TINKATON",
           "displayName": "Tinkaton",
           "innates": [
-            "ABILITY_SWEET_VEIL",
+            "ABILITY_PRANKSTER",
             "ABILITY_MAGNET_PULL",
             "ABILITY_STEELWORKER"
           ],
@@ -311530,7 +311584,7 @@
           "constant": "SPECIES_TINKATON",
           "displayName": "Tinkaton",
           "innates": [
-            "ABILITY_SWEET_VEIL",
+            "ABILITY_PRANKSTER",
             "ABILITY_MAGNET_PULL",
             "ABILITY_STEELWORKER"
           ],
@@ -314166,7 +314220,7 @@
           "constant": "SPECIES_TINKATON",
           "displayName": "Tinkaton",
           "innates": [
-            "ABILITY_SWEET_VEIL",
+            "ABILITY_PRANKSTER",
             "ABILITY_MAGNET_PULL",
             "ABILITY_STEELWORKER"
           ],
@@ -315756,7 +315810,7 @@
           "constant": "SPECIES_NINETALES",
           "displayName": "Ninetales",
           "innates": [
-            "ABILITY_PHANTOM_SOUL",
+            "ABILITY_FLAME_BODY",
             "ABILITY_MAGIC_BOUNCE",
             "ABILITY_CURSED_BODY"
           ],
@@ -316377,8 +316431,8 @@
           "displayName": "Flygon",
           "innates": [
             "ABILITY_SAND_FORCE",
-            "ABILITY_TINTED_LENS",
-            "ABILITY_WINDCALLER"
+            "ABILITY_RESONANCE",
+            "ABILITY_DRAGON_SOUL"
           ],
           "itemConstant": "ITEM_SITRUS_BERRY",
           "itemName": "Sitrus Berry",
@@ -316561,8 +316615,8 @@
           "displayName": "Flygon",
           "innates": [
             "ABILITY_SAND_FORCE",
-            "ABILITY_TINTED_LENS",
-            "ABILITY_WINDCALLER"
+            "ABILITY_RESONANCE",
+            "ABILITY_DRAGON_SOUL"
           ],
           "itemConstant": "ITEM_SITRUS_BERRY",
           "itemName": "Sitrus Berry",
@@ -316716,7 +316770,7 @@
           "constant": "SPECIES_NINETALES",
           "displayName": "Ninetales",
           "innates": [
-            "ABILITY_PHANTOM_SOUL",
+            "ABILITY_FLAME_BODY",
             "ABILITY_MAGIC_BOUNCE",
             "ABILITY_CURSED_BODY"
           ],
@@ -317704,8 +317758,8 @@
           "displayName": "Flygon",
           "innates": [
             "ABILITY_SAND_FORCE",
-            "ABILITY_TINTED_LENS",
-            "ABILITY_WINDCALLER"
+            "ABILITY_RESONANCE",
+            "ABILITY_DRAGON_SOUL"
           ],
           "itemConstant": "ITEM_SITRUS_BERRY",
           "itemName": "Sitrus Berry",
@@ -317941,8 +317995,8 @@
           "displayName": "Flygon",
           "innates": [
             "ABILITY_SAND_FORCE",
-            "ABILITY_TINTED_LENS",
-            "ABILITY_WINDCALLER"
+            "ABILITY_RESONANCE",
+            "ABILITY_DRAGON_SOUL"
           ],
           "itemConstant": "ITEM_SITRUS_BERRY",
           "itemName": "Sitrus Berry",
@@ -318519,7 +318573,7 @@
           "innates": [
             "ABILITY_STURDY",
             "ABILITY_OWN_TEMPO",
-            "ABILITY_BATTLE_ARMOR"
+            "ABILITY_GUARD_DOG"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -318734,7 +318788,7 @@
           "constant": "SPECIES_DRAGONITE",
           "displayName": "Dragonite",
           "innates": [
-            "ABILITY_MARVEL_SCALE",
+            "ABILITY_FAE_SOUL",
             "ABILITY_AERILATE",
             "ABILITY_HOSPITALITY"
           ],
@@ -319004,9 +319058,9 @@
           "constant": "SPECIES_LUXRAY",
           "displayName": "Luxray",
           "innates": [
-            "ABILITY_STRONG_JAW",
-            "ABILITY_PACK_LEADER",
-            "ABILITY_STATIC_BURST"
+            "ABILITY_MOXIE",
+            "ABILITY_STATIC_BURST",
+            "ABILITY_ELECTRIC_SURGE"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -319327,7 +319381,7 @@
           "constant": "SPECIES_DRAGONITE",
           "displayName": "Dragonite",
           "innates": [
-            "ABILITY_MARVEL_SCALE",
+            "ABILITY_FAE_SOUL",
             "ABILITY_AERILATE",
             "ABILITY_HOSPITALITY"
           ],
@@ -319541,7 +319595,7 @@
           "innates": [
             "ABILITY_STURDY",
             "ABILITY_GUARD_DOG",
-            "ABILITY_BATTLE_ARMOR"
+            "ABILITY_MINDS_EYE"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -320489,7 +320543,7 @@
           "constant": "SPECIES_NINETALES",
           "displayName": "Ninetales",
           "innates": [
-            "ABILITY_PHANTOM_SOUL",
+            "ABILITY_FLAME_BODY",
             "ABILITY_MAGIC_BOUNCE",
             "ABILITY_CURSED_BODY"
           ],
@@ -320648,7 +320702,7 @@
           "constant": "SPECIES_NINETALES",
           "displayName": "Ninetales",
           "innates": [
-            "ABILITY_PHANTOM_SOUL",
+            "ABILITY_FLAME_BODY",
             "ABILITY_MAGIC_BOUNCE",
             "ABILITY_CURSED_BODY"
           ],
@@ -321239,9 +321293,9 @@
           "constant": "SPECIES_LUXRAY",
           "displayName": "Luxray",
           "innates": [
-            "ABILITY_STRONG_JAW",
-            "ABILITY_PACK_LEADER",
-            "ABILITY_STATIC_BURST"
+            "ABILITY_MOXIE",
+            "ABILITY_STATIC_BURST",
+            "ABILITY_ELECTRIC_SURGE"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -324759,7 +324813,7 @@
           "constant": "SPECIES_DRAGONITE",
           "displayName": "Dragonite",
           "innates": [
-            "ABILITY_MARVEL_SCALE",
+            "ABILITY_FAE_SOUL",
             "ABILITY_AERILATE",
             "ABILITY_HOSPITALITY"
           ],
@@ -325417,7 +325471,7 @@
           "constant": "SPECIES_DRAGONITE",
           "displayName": "Dragonite",
           "innates": [
-            "ABILITY_MARVEL_SCALE",
+            "ABILITY_FAE_SOUL",
             "ABILITY_AERILATE",
             "ABILITY_HOSPITALITY"
           ],
@@ -326160,7 +326214,7 @@
           "constant": "SPECIES_DRAGONITE",
           "displayName": "Dragonite",
           "innates": [
-            "ABILITY_MARVEL_SCALE",
+            "ABILITY_FAE_SOUL",
             "ABILITY_AERILATE",
             "ABILITY_HOSPITALITY"
           ],
@@ -326755,7 +326809,7 @@
           "constant": "SPECIES_DRAGONITE",
           "displayName": "Dragonite",
           "innates": [
-            "ABILITY_MARVEL_SCALE",
+            "ABILITY_FAE_SOUL",
             "ABILITY_AERILATE",
             "ABILITY_HOSPITALITY"
           ],
@@ -326921,7 +326975,7 @@
           "constant": "SPECIES_DRAGONITE",
           "displayName": "Dragonite",
           "innates": [
-            "ABILITY_MARVEL_SCALE",
+            "ABILITY_FAE_SOUL",
             "ABILITY_AERILATE",
             "ABILITY_HOSPITALITY"
           ],
@@ -340072,7 +340126,7 @@
           "innates": [
             "ABILITY_TECHNICIAN",
             "ABILITY_COMPOUND_EYES",
-            "ABILITY_AERILATE"
+            "ABILITY_WINDBURST"
           ],
           "itemConstant": "ITEM_LIFE_ORB",
           "itemName": "Life Orb",
@@ -340302,7 +340356,7 @@
           "innates": [
             "ABILITY_TECHNICIAN",
             "ABILITY_COMPOUND_EYES",
-            "ABILITY_AERILATE"
+            "ABILITY_WINDBURST"
           ],
           "itemConstant": "ITEM_LIFE_ORB",
           "itemName": "Life Orb",
@@ -340488,7 +340542,7 @@
           "constant": "SPECIES_DRAGONITE",
           "displayName": "Dragonite",
           "innates": [
-            "ABILITY_MARVEL_SCALE",
+            "ABILITY_FAE_SOUL",
             "ABILITY_AERILATE",
             "ABILITY_HOSPITALITY"
           ],
@@ -340765,7 +340819,7 @@
           "innates": [
             "ABILITY_TECHNICIAN",
             "ABILITY_COMPOUND_EYES",
-            "ABILITY_AERILATE"
+            "ABILITY_WINDBURST"
           ],
           "itemConstant": "ITEM_ASSAULT_VEST",
           "itemName": "Assault Vest",
@@ -343982,7 +344036,7 @@
           "constant": "SPECIES_DRAGONITE",
           "displayName": "Dragonite",
           "innates": [
-            "ABILITY_MARVEL_SCALE",
+            "ABILITY_FAE_SOUL",
             "ABILITY_AERILATE",
             "ABILITY_HOSPITALITY"
           ],
@@ -345116,7 +345170,7 @@
           "constant": "SPECIES_DRAGONITE",
           "displayName": "Dragonite",
           "innates": [
-            "ABILITY_MARVEL_SCALE",
+            "ABILITY_FAE_SOUL",
             "ABILITY_AERILATE",
             "ABILITY_HOSPITALITY"
           ],
@@ -345170,7 +345224,7 @@
           "constant": "SPECIES_TINKATON",
           "displayName": "Tinkaton",
           "innates": [
-            "ABILITY_SWEET_VEIL",
+            "ABILITY_PRANKSTER",
             "ABILITY_MAGNET_PULL",
             "ABILITY_STEELWORKER"
           ],
@@ -345324,9 +345378,9 @@
           "constant": "SPECIES_LUXRAY",
           "displayName": "Luxray",
           "innates": [
-            "ABILITY_STRONG_JAW",
-            "ABILITY_PACK_LEADER",
-            "ABILITY_STATIC_BURST"
+            "ABILITY_MOXIE",
+            "ABILITY_STATIC_BURST",
+            "ABILITY_ELECTRIC_SURGE"
           ],
           "itemConstant": "ITEM_EXPERT_BELT",
           "itemName": "Expert Belt",
@@ -346659,7 +346713,7 @@
           "constant": "SPECIES_DRAGONITE",
           "displayName": "Dragonite",
           "innates": [
-            "ABILITY_MARVEL_SCALE",
+            "ABILITY_FAE_SOUL",
             "ABILITY_AERILATE",
             "ABILITY_HOSPITALITY"
           ],
@@ -346721,7 +346775,7 @@
           "constant": "SPECIES_TINKATON",
           "displayName": "Tinkaton",
           "innates": [
-            "ABILITY_SWEET_VEIL",
+            "ABILITY_PRANKSTER",
             "ABILITY_MAGNET_PULL",
             "ABILITY_STEELWORKER"
           ],
@@ -346895,9 +346949,9 @@
           "constant": "SPECIES_LUXRAY",
           "displayName": "Luxray",
           "innates": [
-            "ABILITY_STRONG_JAW",
-            "ABILITY_PACK_LEADER",
-            "ABILITY_STATIC_BURST"
+            "ABILITY_MOXIE",
+            "ABILITY_STATIC_BURST",
+            "ABILITY_ELECTRIC_SURGE"
           ],
           "itemConstant": "ITEM_EXPERT_BELT",
           "itemName": "Expert Belt",
