@@ -2587,7 +2587,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .baseSpeed     = 95,
         .baseSpAttack  = 45,
         .baseSpDefense = 90,
-        .types = MON_TYPES(TYPE_ELECTRIC),
+        .types = MON_TYPES(TYPE_ELECTRIC, TYPE_FAIRY),
         .catchRate = 200,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 142 : 120,
         .evYield_Speed = 1,
