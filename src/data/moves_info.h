@@ -19528,8 +19528,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "A mysterious power strikes,\n"
             "raising the user's Sp. Atk."),
         .effect = EFFECT_HIT,
-        .power = 70,
-        .type = TYPE_PSYCHIC,
+        .power = 80,
+        .type = TYPE_FAIRY,
         .accuracy = 90,
         .pp = 10,
         .target = TARGET_SELECTED,
