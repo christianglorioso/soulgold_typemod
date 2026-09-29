@@ -978,7 +978,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .abilities = { ABILITY_CONTRARY, ABILITY_CONTRARY, ABILITY_CONTRARY },
-        .innates = { ABILITY_RECKLESS, ABILITY_BIG_PECKS, ABILITY_INTIMIDATE },
+        .innates = { ABILITY_GALE_WINGS, ABILITY_FLIER, ABILITY_OPPORTUNIST },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Staraptor"),
     #if P_MODIFIED_MEGA_CRIES
@@ -4256,7 +4256,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
         .abilities = { ABILITY_PRESSURE, ABILITY_NONE, ABILITY_INFILTRATOR },
-        .innates = { ABILITY_CURSED_BODY, ABILITY_SHADOW_SHIELD, ABILITY_BRAND_OF_TORMENT },
+        .innates = { ABILITY_PRANKSTER, ABILITY_SHADOW_SHIELD, ABILITY_SHOWTIME },
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = TRUE,
         .speciesName = _("Spiritomb"),
