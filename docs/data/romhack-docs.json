@@ -6859,7 +6859,7 @@
       ],
       "innates": [
         "ABILITY_GENERALIST",
-        "ABILITY_BATTERY",
+        "ABILITY_ROCK_HEAD",
         "ABILITY_MOXIE"
       ],
       "sprite": "sprites/pokemon/pikachu_starter.png",
@@ -22438,7 +22438,7 @@
       "name": "Geodude",
       "types": [
         "TYPE_ROCK",
-        "TYPE_GROUND"
+        "TYPE_ROCK"
       ],
       "stats": {
         "hp": 40,
@@ -22916,7 +22916,7 @@
       "name": "Graveler",
       "types": [
         "TYPE_ROCK",
-        "TYPE_GROUND"
+        "TYPE_ROCK"
       ],
       "stats": {
         "hp": 55,
@@ -23424,7 +23424,7 @@
       "name": "Golem",
       "types": [
         "TYPE_ROCK",
-        "TYPE_GROUND"
+        "TYPE_ROCK"
       ],
       "stats": {
         "hp": 80,
@@ -34220,7 +34220,7 @@
       "dex": 97,
       "name": "Rhyhorn",
       "types": [
-        "TYPE_GROUND",
+        "TYPE_NORMAL",
         "TYPE_ROCK"
       ],
       "stats": {
@@ -34481,7 +34481,7 @@
       "dex": 98,
       "name": "Rhydon",
       "types": [
-        "TYPE_GROUND",
+        "TYPE_NORMAL",
         "TYPE_ROCK"
       ],
       "stats": {
@@ -43992,7 +43992,7 @@
         "TYPE_WATER"
       ],
       "stats": {
-        "hp": 60,
+        "hp": 80,
         "atk": 115,
         "def": 105,
         "spa": 65,
@@ -44009,7 +44009,7 @@
       "categories": [
         "fossil"
       ],
-      "bst": 495,
+      "bst": 515,
       "abilities": [
         "ABILITY_SWIFT_SWIM",
         "ABILITY_BATTLE_ARMOR",
@@ -57777,15 +57777,15 @@
       "name": "Politoed",
       "types": [
         "TYPE_WATER",
-        "TYPE_WATER"
+        "TYPE_GRASS"
       ],
       "stats": {
-        "hp": 90,
-        "atk": 75,
-        "def": 75,
-        "spa": 90,
+        "hp": 100,
+        "atk": 70,
+        "def": 80,
+        "spa": 100,
         "spd": 100,
-        "spe": 70
+        "spe": 60
       },
       "evYield": {
         "spd": 3
@@ -57794,7 +57794,7 @@
         "EGG_GROUP_WATER_1"
       ],
       "categories": [],
-      "bst": 500,
+      "bst": 510,
       "abilities": [
         "ABILITY_WATER_ABSORB",
         "ABILITY_DAMP",
@@ -57809,7 +57809,7 @@
       ],
       "innates": [
         "ABILITY_SWIFT_SWIM",
-        "ABILITY_WATER_VEIL",
+        "ABILITY_DRY_SKIN",
         "ABILITY_LIQUID_VOICE"
       ],
       "sprite": "sprites/pokemon/politoed.png",
@@ -57852,12 +57852,24 @@
           "move": "MOVE_PERISH_SONG"
         },
         {
+          "level": 32,
+          "move": "MOVE_LEECH_SEED"
+        },
+        {
           "level": 34,
           "move": "MOVE_SWAGGER"
         },
         {
+          "level": 36,
+          "move": "MOVE_GIGA_DRAIN"
+        },
+        {
           "level": 39,
           "move": "MOVE_HYPER_VOICE"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_EARTH_POWER"
         },
         {
           "level": 43,
@@ -57874,6 +57886,10 @@
         {
           "level": 55,
           "move": "MOVE_BELLY_DRUM"
+        },
+        {
+          "level": 57,
+          "move": "MOVE_ENERGY_BALL"
         },
         {
           "level": 60,
@@ -73223,8 +73239,8 @@
           "name": "Whirl Islands Lugia Chamber",
           "time": "",
           "method": "Legendary encounter",
-          "minLevel": 65,
-          "maxLevel": 65,
+          "minLevel": 80,
+          "maxLevel": 80,
           "rate": null
         },
         {
@@ -73232,8 +73248,8 @@
           "name": "Whirl Islands Lugia Chamber",
           "time": "",
           "method": "Legendary encounter",
-          "minLevel": 80,
-          "maxLevel": 80,
+          "minLevel": 65,
+          "maxLevel": 65,
           "rate": null
         }
       ],
@@ -104931,7 +104947,7 @@
       "name": "Pachirisu",
       "types": [
         "TYPE_ELECTRIC",
-        "TYPE_ELECTRIC"
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 60,
@@ -116265,7 +116281,7 @@
       "dex": 352,
       "name": "Rhyperior",
       "types": [
-        "TYPE_GROUND",
+        "TYPE_NORMAL",
         "TYPE_ROCK"
       ],
       "stats": {
@@ -143088,7 +143104,7 @@
       "name": "Haxorus",
       "types": [
         "TYPE_DRAGON",
-        "TYPE_DRAGON"
+        "TYPE_STEEL"
       ],
       "stats": {
         "hp": 76,
@@ -144271,7 +144287,7 @@
       "dex": 442,
       "name": "Golett",
       "types": [
-        "TYPE_GROUND",
+        "TYPE_ROCK",
         "TYPE_GHOST"
       ],
       "stats": {
@@ -144524,7 +144540,7 @@
       "dex": 443,
       "name": "Golurk",
       "types": [
-        "TYPE_GROUND",
+        "TYPE_ROCK",
         "TYPE_GHOST"
       ],
       "stats": {
@@ -144790,7 +144806,7 @@
       "dex": 443,
       "name": "Golurk",
       "types": [
-        "TYPE_GROUND",
+        "TYPE_ROCK",
         "TYPE_GHOST"
       ],
       "stats": {
@@ -183373,7 +183389,7 @@
       "name": "Rillaboom",
       "types": [
         "TYPE_GRASS",
-        "TYPE_GRASS"
+        "TYPE_ROCK"
       ],
       "stats": {
         "hp": 100,
@@ -183609,7 +183625,7 @@
       "name": "Rillaboom",
       "types": [
         "TYPE_GRASS",
-        "TYPE_GRASS"
+        "TYPE_ROCK"
       ],
       "stats": {
         "hp": 100,
@@ -184151,7 +184167,7 @@
       "name": "Cinderace",
       "types": [
         "TYPE_FIRE",
-        "TYPE_FIRE"
+        "TYPE_ELECTRIC"
       ],
       "stats": {
         "hp": 80,
@@ -184381,7 +184397,7 @@
       "name": "Cinderace",
       "types": [
         "TYPE_FIRE",
-        "TYPE_FIRE"
+        "TYPE_ELECTRIC"
       ],
       "stats": {
         "hp": 80,
@@ -184906,7 +184922,7 @@
       "name": "Inteleon",
       "types": [
         "TYPE_WATER",
-        "TYPE_WATER"
+        "TYPE_GHOST"
       ],
       "stats": {
         "hp": 70,
@@ -185137,7 +185153,7 @@
       "name": "Inteleon",
       "types": [
         "TYPE_WATER",
-        "TYPE_WATER"
+        "TYPE_GHOST"
       ],
       "stats": {
         "hp": 70,
@@ -236793,12 +236809,6 @@
             "sprite": "sprites/pokemon/azumarill.png"
           },
           {
-            "species": "SPECIES_POLITOED",
-            "name": "Politoed",
-            "dex": 163,
-            "sprite": "sprites/pokemon/politoed.png"
-          },
-          {
             "species": "SPECIES_MUDKIP",
             "name": "Mudkip",
             "dex": 222,
@@ -240825,6 +240835,12 @@
             "sprite": "sprites/pokemon/blastoise.png"
           },
           {
+            "species": "SPECIES_PIKACHU_STARTER",
+            "name": "Pikachu",
+            "dex": 23,
+            "sprite": "sprites/pokemon/pikachu_starter.png"
+          },
+          {
             "species": "SPECIES_RAICHU_MEGA_X",
             "name": "Raichu",
             "dex": 24,
@@ -242459,6 +242475,12 @@
       "usage": {
         "base": [],
         "innate": [
+          {
+            "species": "SPECIES_POLITOED",
+            "name": "Politoed",
+            "dex": 163,
+            "sprite": "sprites/pokemon/politoed.png"
+          },
           {
             "species": "SPECIES_SCIZOR_MEGA",
             "name": "Scizor",
@@ -254486,12 +254508,6 @@
             "name": "Pikachu",
             "dex": 23,
             "sprite": "sprites/pokemon/pikachu.png"
-          },
-          {
-            "species": "SPECIES_PIKACHU_STARTER",
-            "name": "Pikachu",
-            "dex": 23,
-            "sprite": "sprites/pokemon/pikachu_starter.png"
           },
           {
             "species": "SPECIES_LANTURN",
@@ -301366,7 +301382,7 @@
           "displayName": "Politoed",
           "innates": [
             "ABILITY_SWIFT_SWIM",
-            "ABILITY_WATER_VEIL",
+            "ABILITY_DRY_SKIN",
             "ABILITY_LIQUID_VOICE"
           ],
           "itemConstant": "",
@@ -321539,7 +321555,7 @@
           "displayName": "Politoed",
           "innates": [
             "ABILITY_SWIFT_SWIM",
-            "ABILITY_WATER_VEIL",
+            "ABILITY_DRY_SKIN",
             "ABILITY_LIQUID_VOICE"
           ],
           "itemConstant": "",
