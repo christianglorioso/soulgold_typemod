@@ -2853,7 +2853,7 @@
       "name": "Blastoise",
       "types": [
         "TYPE_WATER",
-        "TYPE_WATER"
+        "TYPE_STEEL"
       ],
       "stats": {
         "hp": 79,
@@ -11382,7 +11382,7 @@
         "ABILITY_DROUGHT"
       ],
       "innates": [
-        "ABILITY_PHANTOM_SOUL"
+        "ABILITY_FLAME_BODY"
       ],
       "sprite": "sprites/pokemon/vulpix.png",
       "shinySprite": "sprites/pokemon/vulpix_shiny.png",
@@ -30180,7 +30180,8 @@
       ],
       "innates": [
         "ABILITY_SOLID_ROCK",
-        "ABILITY_BURROWER"
+        "ABILITY_BURROWER",
+        "ABILITY_EARTH_EATER"
       ],
       "sprite": "sprites/pokemon/onix.png",
       "shinySprite": "sprites/pokemon/onix_shiny.png",
@@ -72978,8 +72979,8 @@
           "name": "Whirl Islands Lugia Chamber",
           "time": "",
           "method": "Legendary encounter",
-          "minLevel": 65,
-          "maxLevel": 65,
+          "minLevel": 80,
+          "maxLevel": 80,
           "rate": null
         },
         {
@@ -72987,8 +72988,8 @@
           "name": "Whirl Islands Lugia Chamber",
           "time": "",
           "method": "Legendary encounter",
-          "minLevel": 80,
-          "maxLevel": 80,
+          "minLevel": 65,
+          "maxLevel": 65,
           "rate": null
         }
       ],
@@ -73440,8 +73441,8 @@
           "name": "Tin Tower Roof Day",
           "time": "",
           "method": "Legendary encounter",
-          "minLevel": 65,
-          "maxLevel": 65,
+          "minLevel": 80,
+          "maxLevel": 80,
           "rate": null
         },
         {
@@ -73449,8 +73450,8 @@
           "name": "Tin Tower Roof Day",
           "time": "",
           "method": "Legendary encounter",
-          "minLevel": 80,
-          "maxLevel": 80,
+          "minLevel": 65,
+          "maxLevel": 65,
           "rate": null
         }
       ],
@@ -103769,9 +103770,9 @@
         "ABILITY_CONTRARY"
       ],
       "innates": [
-        "ABILITY_RECKLESS",
-        "ABILITY_BIG_PECKS",
-        "ABILITY_INTIMIDATE"
+        "ABILITY_GALE_WINGS",
+        "ABILITY_FLIER",
+        "ABILITY_OPPORTUNIST"
       ],
       "sprite": "sprites/pokemon/staraptor_mega.png",
       "shinySprite": "sprites/pokemon/staraptor_mega_shiny.png",
@@ -109767,9 +109768,9 @@
         "ABILITY_INFILTRATOR"
       ],
       "innates": [
-        "ABILITY_CURSED_BODY",
+        "ABILITY_PRANKSTER",
         "ABILITY_SHADOW_SHIELD",
-        "ABILITY_BRAND_OF_TORMENT"
+        "ABILITY_SHOWTIME"
       ],
       "sprite": "sprites/pokemon/spiritomb.png",
       "shinySprite": "sprites/pokemon/spiritomb_shiny.png",
@@ -116767,7 +116768,7 @@
       "name": "Electivire",
       "types": [
         "TYPE_ELECTRIC",
-        "TYPE_FIRE"
+        "TYPE_FIGHTING"
       ],
       "stats": {
         "hp": 75,
@@ -117018,7 +117019,7 @@
       "name": "Magmortar",
       "types": [
         "TYPE_FIRE",
-        "TYPE_DARK"
+        "TYPE_POISON"
       ],
       "stats": {
         "hp": 75,
@@ -121200,7 +121201,7 @@
       ],
       "hiddenAbilities": [],
       "innates": [
-        "ABILITY_ELECTROMORPHOSIS",
+        "ABILITY_PHANTOM_SOUL",
         "ABILITY_STEAM_ENGINE",
         "ABILITY_FIRE_ATE"
       ],
@@ -121369,7 +121370,7 @@
       ],
       "hiddenAbilities": [],
       "innates": [
-        "ABILITY_ELECTROMORPHOSIS",
+        "ABILITY_PHANTOM_SOUL",
         "ABILITY_WATER_VEIL",
         "ABILITY_WATER_ATE"
       ],
@@ -121538,7 +121539,7 @@
       ],
       "hiddenAbilities": [],
       "innates": [
-        "ABILITY_ELECTROMORPHOSIS",
+        "ABILITY_PHANTOM_SOUL",
         "ABILITY_ICE_BODY",
         "ABILITY_REFRIGERATE"
       ],
@@ -121707,7 +121708,7 @@
       ],
       "hiddenAbilities": [],
       "innates": [
-        "ABILITY_ELECTROMORPHOSIS",
+        "ABILITY_PHANTOM_SOUL",
         "ABILITY_WINDCALLER",
         "ABILITY_AERILATE"
       ],
@@ -121877,7 +121878,7 @@
       ],
       "hiddenAbilities": [],
       "innates": [
-        "ABILITY_ELECTROMORPHOSIS",
+        "ABILITY_PHANTOM_SOUL",
         "ABILITY_SEED_SOWER",
         "ABILITY_GRASS_ATE"
       ],
@@ -122018,8 +122019,8 @@
       "dex": 368,
       "name": "Uxie",
       "types": [
-        "TYPE_PSYCHIC",
-        "TYPE_PSYCHIC"
+        "TYPE_FAIRY",
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 75,
@@ -122259,8 +122260,8 @@
       "dex": 369,
       "name": "Mesprit",
       "types": [
-        "TYPE_PSYCHIC",
-        "TYPE_PSYCHIC"
+        "TYPE_FAIRY",
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 80,
@@ -122504,8 +122505,8 @@
       "dex": 370,
       "name": "Azelf",
       "types": [
-        "TYPE_PSYCHIC",
-        "TYPE_PSYCHIC"
+        "TYPE_FAIRY",
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 75,
@@ -124694,8 +124695,8 @@
       "dex": 376,
       "name": "Cresselia",
       "types": [
-        "TYPE_PSYCHIC",
-        "TYPE_PSYCHIC"
+        "TYPE_FAIRY",
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 120,
@@ -229636,11 +229637,11 @@
       "constant": "MOVE_MYSTICAL_POWER",
       "name": "Mystical Power",
       "description": "A mysterious power strikes, raising the user's Sp. Atk.",
-      "power": 70,
+      "power": 80,
       "accuracy": 90,
       "pp": 10,
       "priority": 0,
-      "type": "TYPE_PSYCHIC",
+      "type": "TYPE_FAIRY",
       "category": "DAMAGE_CATEGORY_SPECIAL",
       "abilityBoosts": [],
       "slug": "mystical-power"
@@ -234029,12 +234030,6 @@
             "sprite": "sprites/pokemon/sharpedo.png"
           },
           {
-            "species": "SPECIES_STARAPTOR_MEGA",
-            "name": "Staraptor",
-            "dex": 311,
-            "sprite": "sprites/pokemon/staraptor_mega.png"
-          },
-          {
             "species": "SPECIES_AXEW",
             "name": "Axew",
             "dex": 436,
@@ -238043,6 +238038,12 @@
             "name": "Charizard",
             "dex": 6,
             "sprite": "sprites/pokemon/charizard_mega_x.png"
+          },
+          {
+            "species": "SPECIES_VULPIX",
+            "name": "Vulpix",
+            "dex": 35,
+            "sprite": "sprites/pokemon/vulpix.png"
           },
           {
             "species": "SPECIES_NINETALES",
@@ -246509,12 +246510,6 @@
             "sprite": "sprites/pokemon/infernape.png"
           },
           {
-            "species": "SPECIES_STARAPTOR_MEGA",
-            "name": "Staraptor",
-            "dex": 311,
-            "sprite": "sprites/pokemon/staraptor_mega.png"
-          },
-          {
             "species": "SPECIES_PIGNITE",
             "name": "Pignite",
             "dex": 387,
@@ -247605,12 +247600,6 @@
             "name": "Drifblim",
             "dex": 324,
             "sprite": "sprites/pokemon/drifblim.png"
-          },
-          {
-            "species": "SPECIES_SPIRITOMB",
-            "name": "Spiritomb",
-            "dex": 333,
-            "sprite": "sprites/pokemon/spiritomb.png"
           },
           {
             "species": "SPECIES_DUSKNOIR",
@@ -249349,12 +249338,6 @@
             "sprite": "sprites/pokemon/staravia.png"
           },
           {
-            "species": "SPECIES_STARAPTOR_MEGA",
-            "name": "Staraptor",
-            "dex": 311,
-            "sprite": "sprites/pokemon/staraptor_mega.png"
-          },
-          {
             "species": "SPECIES_ARCHEN",
             "name": "Archen",
             "dex": 416,
@@ -250693,6 +250676,12 @@
             "name": "Jumpluff",
             "dex": 166,
             "sprite": "sprites/pokemon/jumpluff.png"
+          },
+          {
+            "species": "SPECIES_SPIRITOMB",
+            "name": "Spiritomb",
+            "dex": 333,
+            "sprite": "sprites/pokemon/spiritomb.png"
           },
           {
             "species": "SPECIES_ROTOM",
@@ -252211,6 +252200,12 @@
             "name": "Staraptor",
             "dex": 311,
             "sprite": "sprites/pokemon/staraptor.png"
+          },
+          {
+            "species": "SPECIES_STARAPTOR_MEGA",
+            "name": "Staraptor",
+            "dex": 311,
+            "sprite": "sprites/pokemon/staraptor_mega.png"
           }
         ]
       }
@@ -257131,36 +257126,6 @@
             "sprite": "sprites/pokemon/rotom.png"
           },
           {
-            "species": "SPECIES_ROTOM_HEAT",
-            "name": "Rotom",
-            "dex": 367,
-            "sprite": "sprites/pokemon/rotom_heat.png"
-          },
-          {
-            "species": "SPECIES_ROTOM_WASH",
-            "name": "Rotom",
-            "dex": 367,
-            "sprite": "sprites/pokemon/rotom_wash.png"
-          },
-          {
-            "species": "SPECIES_ROTOM_FROST",
-            "name": "Rotom",
-            "dex": 367,
-            "sprite": "sprites/pokemon/rotom_frost.png"
-          },
-          {
-            "species": "SPECIES_ROTOM_FAN",
-            "name": "Rotom",
-            "dex": 367,
-            "sprite": "sprites/pokemon/rotom_fan.png"
-          },
-          {
-            "species": "SPECIES_ROTOM_MOW",
-            "name": "Rotom",
-            "dex": 367,
-            "sprite": "sprites/pokemon/rotom_mow.png"
-          },
-          {
             "species": "SPECIES_ZERAORA",
             "name": "Zeraora",
             "dex": 564,
@@ -257521,6 +257486,12 @@
             "name": "Staraptor",
             "dex": 311,
             "sprite": "sprites/pokemon/staraptor.png"
+          },
+          {
+            "species": "SPECIES_STARAPTOR_MEGA",
+            "name": "Staraptor",
+            "dex": 311,
+            "sprite": "sprites/pokemon/staraptor_mega.png"
           },
           {
             "species": "SPECIES_MEOWSTIC_F",
@@ -258018,6 +257989,12 @@
             "name": "Golem",
             "dex": 68,
             "sprite": "sprites/pokemon/golem.png"
+          },
+          {
+            "species": "SPECIES_ONIX",
+            "name": "Onix",
+            "dex": 85,
+            "sprite": "sprites/pokemon/onix.png"
           },
           {
             "species": "SPECIES_MARSHTOMP",
@@ -260238,10 +260215,34 @@
         "base": [],
         "innate": [
           {
-            "species": "SPECIES_VULPIX",
-            "name": "Vulpix",
-            "dex": 35,
-            "sprite": "sprites/pokemon/vulpix.png"
+            "species": "SPECIES_ROTOM_HEAT",
+            "name": "Rotom",
+            "dex": 367,
+            "sprite": "sprites/pokemon/rotom_heat.png"
+          },
+          {
+            "species": "SPECIES_ROTOM_WASH",
+            "name": "Rotom",
+            "dex": 367,
+            "sprite": "sprites/pokemon/rotom_wash.png"
+          },
+          {
+            "species": "SPECIES_ROTOM_FROST",
+            "name": "Rotom",
+            "dex": 367,
+            "sprite": "sprites/pokemon/rotom_frost.png"
+          },
+          {
+            "species": "SPECIES_ROTOM_FAN",
+            "name": "Rotom",
+            "dex": 367,
+            "sprite": "sprites/pokemon/rotom_fan.png"
+          },
+          {
+            "species": "SPECIES_ROTOM_MOW",
+            "name": "Rotom",
+            "dex": 367,
+            "sprite": "sprites/pokemon/rotom_mow.png"
           }
         ]
       }
@@ -260465,6 +260466,12 @@
       "usage": {
         "base": [],
         "innate": [
+          {
+            "species": "SPECIES_SPIRITOMB",
+            "name": "Spiritomb",
+            "dex": 333,
+            "sprite": "sprites/pokemon/spiritomb.png"
+          },
           {
             "species": "SPECIES_DARMANITAN_ZEN",
             "name": "Darmanitan",
@@ -265309,6 +265316,12 @@
             "sprite": "sprites/pokemon/staraptor.png"
           },
           {
+            "species": "SPECIES_STARAPTOR_MEGA",
+            "name": "Staraptor",
+            "dex": 311,
+            "sprite": "sprites/pokemon/staraptor_mega.png"
+          },
+          {
             "species": "SPECIES_RUFFLET",
             "name": "Rufflet",
             "dex": 446,
@@ -265436,12 +265449,6 @@
             "name": "Absol",
             "dex": 277,
             "sprite": "sprites/pokemon/absol_mega_z.png"
-          },
-          {
-            "species": "SPECIES_SPIRITOMB",
-            "name": "Spiritomb",
-            "dex": 333,
-            "sprite": "sprites/pokemon/spiritomb.png"
           },
           {
             "species": "SPECIES_DARKRAI",
@@ -294861,7 +294868,7 @@
           "constant": "SPECIES_VULPIX",
           "displayName": "Vulpix",
           "innates": [
-            "ABILITY_PHANTOM_SOUL"
+            "ABILITY_FLAME_BODY"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -294998,7 +295005,8 @@
           "displayName": "Onix",
           "innates": [
             "ABILITY_SOLID_ROCK",
-            "ABILITY_BURROWER"
+            "ABILITY_BURROWER",
+            "ABILITY_EARTH_EATER"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -297409,7 +297417,7 @@
           "constant": "SPECIES_VULPIX",
           "displayName": "Vulpix",
           "innates": [
-            "ABILITY_PHANTOM_SOUL"
+            "ABILITY_FLAME_BODY"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -303701,7 +303709,8 @@
           "displayName": "Onix",
           "innates": [
             "ABILITY_SOLID_ROCK",
-            "ABILITY_BURROWER"
+            "ABILITY_BURROWER",
+            "ABILITY_EARTH_EATER"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -313400,7 +313409,7 @@
           "constant": "SPECIES_ROTOM_WASH",
           "displayName": "Rotom-Wash",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_WATER_VEIL",
             "ABILITY_WATER_ATE"
           ],
@@ -313592,7 +313601,7 @@
           "constant": "SPECIES_ROTOM_WASH",
           "displayName": "Rotom-Wash",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_WATER_VEIL",
             "ABILITY_WATER_ATE"
           ],
@@ -314567,7 +314576,7 @@
           "constant": "SPECIES_ROTOM_WASH",
           "displayName": "Rotom-Wash",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_WATER_VEIL",
             "ABILITY_WATER_ATE"
           ],
@@ -316881,7 +316890,7 @@
           "constant": "SPECIES_ROTOM_HEAT",
           "displayName": "Rotom Heat",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_STEAM_ENGINE",
             "ABILITY_FIRE_ATE"
           ],
@@ -325904,7 +325913,7 @@
           "constant": "SPECIES_ROTOM_WASH",
           "displayName": "Rotom-Wash",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_WATER_VEIL",
             "ABILITY_WATER_ATE"
           ],
@@ -326062,7 +326071,7 @@
           "constant": "SPECIES_ROTOM_WASH",
           "displayName": "Rotom-Wash",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_WATER_VEIL",
             "ABILITY_WATER_ATE"
           ],
@@ -332826,7 +332835,7 @@
           "constant": "SPECIES_ROTOM_WASH",
           "displayName": "Rotom-Wash",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_WATER_VEIL",
             "ABILITY_WATER_ATE"
           ],
@@ -334208,7 +334217,7 @@
           "constant": "SPECIES_ROTOM_WASH",
           "displayName": "Rotom-Wash",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_WATER_VEIL",
             "ABILITY_WATER_ATE"
           ],
@@ -337025,7 +337034,7 @@
           "constant": "SPECIES_ROTOM_WASH",
           "displayName": "Rotom-Wash",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_WATER_VEIL",
             "ABILITY_WATER_ATE"
           ],
@@ -337235,7 +337244,7 @@
           "constant": "SPECIES_ROTOM_WASH",
           "displayName": "Rotom-Wash",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_WATER_VEIL",
             "ABILITY_WATER_ATE"
           ],
@@ -344889,7 +344898,7 @@
           "constant": "SPECIES_ROTOM_WASH",
           "displayName": "Rotom-Wash",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_WATER_VEIL",
             "ABILITY_WATER_ATE"
           ],
@@ -346395,7 +346404,7 @@
           "constant": "SPECIES_ROTOM_WASH",
           "displayName": "Rotom-Wash",
           "innates": [
-            "ABILITY_ELECTROMORPHOSIS",
+            "ABILITY_PHANTOM_SOUL",
             "ABILITY_WATER_VEIL",
             "ABILITY_WATER_ATE"
           ],
