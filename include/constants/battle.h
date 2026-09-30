@@ -761,6 +761,12 @@ enum MoveTarget
 #define PARENTAL_BOND_2ND_HIT 1
 #define PARENTAL_BOND_OFF     0
 
+// Constants for Hydra
+#define HYDRA_1ST_HIT 3
+#define HYDRA_2ND_HIT 2
+#define HYDRA_3RD_HIT 1
+#define HYDRA_OFF     0
+
 // Constants for Torment
 #define PERMANENT_TORMENT   0xF
 

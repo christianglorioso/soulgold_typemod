@@ -9465,6 +9465,16 @@ static inline uq4_12_t GetParentalBondModifier(enum BattlerId battlerAtk)
     return B_PARENTAL_BOND_DMG >= GEN_7 ? UQ_4_12(0.25) : UQ_4_12(0.5);
 }
 
+static inline uq4_12_t GetHydraModifier(enum BattlerId battlerAtk)
+{
+    if (gSpecialStatuses[battlerAtk].hydraState == HYDRA_1ST_HIT)
+        return UQ_4_12(1.0);
+    if (gSpecialStatuses[battlerAtk].hydraState == HYDRA_2ND_HIT)
+        return UQ_4_12(0.5);
+    if (gSpecialStatuses[battlerAtk].hydraState == HYDRA_3RD_HIT)
+        return UQ_4_12(0.25);
+}
+
 bool32 BattlerHasStabForType(enum BattlerId battler, enum Type type)
 {
     return IS_BATTLER_OF_TYPE(battler, type)
@@ -9964,6 +9974,7 @@ static inline s32 DoMoveDamageCalcVars(struct BattleContext *ctx)
     dmg = CalculateBaseDamage(gBattleMovePower, userFinalAttack, gBattleMons[ctx->battlerAtk].level, targetFinalDefense);
     DAMAGE_APPLY_MODIFIER(GetTargetDamageModifier(ctx));
     DAMAGE_APPLY_MODIFIER(GetParentalBondModifier(ctx->battlerAtk));
+    DAMAGE_APPLY_MODIFIER(GetHydraModifier(ctx->battlerAtk));
     DAMAGE_APPLY_MODIFIER(GetWeatherDamageModifier(ctx));
     DAMAGE_APPLY_MODIFIER(GetFieldDamageModifier(ctx));
     DAMAGE_APPLY_MODIFIER(GetCriticalModifier(ctx->isCrit));

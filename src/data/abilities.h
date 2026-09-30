@@ -5798,4 +5798,14 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
                                            "all entry hazards useless."),
         .aiRating = 7,
     },
+
+    [ABILITY_HYDRA] =
+    {
+        .name = _("Hydra"),
+        .description = COMPOUND_STRING("Moves hit three times."),
+        .longDescription = COMPOUND_STRING("Single-target attacks hit\n"
+                                           "three times, with the second\n"
+                                           "and third hits reduced in power."),
+        .aiRating = 10,
+    },
 };

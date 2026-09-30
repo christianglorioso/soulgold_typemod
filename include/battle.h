@@ -125,6 +125,7 @@ struct SpecialStatus
     u8 gemBoost:1;
     // End of byte
     u8 parentalBondState:2;
+    u8 hydraState:3;
     u8 multiHitOn:1;
     u8 distortedTypeMatchups:1;
     u8 teraShellAbilityDone:1;

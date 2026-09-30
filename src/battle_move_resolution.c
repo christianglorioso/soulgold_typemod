@@ -1937,6 +1937,13 @@ static bool32 IsMoveParentalBondAffected(struct BattleContext *ctx)
     return TRUE;
 }
 
+static bool32 IsMoveHydraAffected(struct BattleContext *ctx)
+{
+    if (BattlerHasTrait(ctx->battlerAtk, ABILITY_HYDRA))
+        return TRUE;
+    return FALSE;
+}
+
 static void SetPossibleNewSmartTarget(u32 move)
 {
     if (!IsBattlerUnaffectedByMove(gBattlerTarget)
@@ -2029,6 +2036,12 @@ static enum CancelerResult CancelerMultihitMoves(struct BattleContext *ctx)
     {
         gSpecialStatuses[gBattlerAttacker].parentalBondState = PARENTAL_BOND_1ST_HIT;
         gMultiHitCounter = 2;
+        PREPARE_BYTE_NUMBER_BUFFER(gBattleScripting.multihitString, 1, 0)
+    }
+    else if (IsMoveHydraAffected(ctx))
+    {
+        gSpecialStatuses[gBattlerAttacker].hydraState = HYDRA_1ST_HIT;
+        gMultiHitCounter = 3;
         PREPARE_BYTE_NUMBER_BUFFER(gBattleScripting.multihitString, 1, 0)
     }
     else
@@ -3022,6 +3035,7 @@ static enum MoveEndResult MoveEndMultihitMove(void)
 
     gMultiHitCounter = 0;
     gSpecialStatuses[gBattlerAttacker].parentalBondState = PARENTAL_BOND_OFF;
+    gSpecialStatuses[gBattlerAttacker].hydraState = HYDRA_OFF;
     gSpecialStatuses[gBattlerAttacker].multiHitOn = 0;
     gBattleScripting.moveendState++;
     return result;

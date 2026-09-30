@@ -3394,6 +3394,10 @@
         {
           "level": 56,
           "move": "MOVE_POLLEN_PUFF"
+        },
+        {
+          "level": 62,
+          "move": "MOVE_ESPER_WING"
         }
       ],
       "tmhm": [
@@ -3617,6 +3621,10 @@
         {
           "level": 56,
           "move": "MOVE_POLLEN_PUFF"
+        },
+        {
+          "level": 62,
+          "move": "MOVE_ESPER_WING"
         }
       ],
       "tmhm": [
@@ -8130,7 +8138,7 @@
       "name": "Sandshrew",
       "types": [
         "TYPE_GROUND",
-        "TYPE_GROUND"
+        "TYPE_NORMAL"
       ],
       "stats": {
         "hp": 50,
@@ -8635,7 +8643,7 @@
       "name": "Sandslash",
       "types": [
         "TYPE_GROUND",
-        "TYPE_GROUND"
+        "TYPE_NORMAL"
       ],
       "stats": {
         "hp": 75,
@@ -9183,7 +9191,7 @@
       "name": "Nidoran F",
       "types": [
         "TYPE_POISON",
-        "TYPE_POISON"
+        "TYPE_NORMAL"
       ],
       "stats": {
         "hp": 55,
@@ -9382,7 +9390,7 @@
       "name": "Nidorina",
       "types": [
         "TYPE_POISON",
-        "TYPE_POISON"
+        "TYPE_NORMAL"
       ],
       "stats": {
         "hp": 70,
@@ -9582,7 +9590,7 @@
       "name": "Nidoqueen",
       "types": [
         "TYPE_POISON",
-        "TYPE_GROUND"
+        "TYPE_NORMAL"
       ],
       "stats": {
         "hp": 90,
@@ -9832,7 +9840,7 @@
       "name": "Nidoran M",
       "types": [
         "TYPE_POISON",
-        "TYPE_POISON"
+        "TYPE_NORMAL"
       ],
       "stats": {
         "hp": 46,
@@ -10031,7 +10039,7 @@
       "name": "Nidorino",
       "types": [
         "TYPE_POISON",
-        "TYPE_POISON"
+        "TYPE_NORMAL"
       ],
       "stats": {
         "hp": 61,
@@ -10232,7 +10240,7 @@
       "name": "Nidoking",
       "types": [
         "TYPE_POISON",
-        "TYPE_GROUND"
+        "TYPE_NORMAL"
       ],
       "stats": {
         "hp": 81,
@@ -14044,7 +14052,7 @@
       "name": "Diglett",
       "types": [
         "TYPE_GROUND",
-        "TYPE_GROUND"
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 10,
@@ -14490,7 +14498,7 @@
       "name": "Dugtrio",
       "types": [
         "TYPE_GROUND",
-        "TYPE_GROUND"
+        "TYPE_FAIRY"
       ],
       "stats": {
         "hp": 35,
@@ -22123,6 +22131,10 @@
       "shinySprite": "sprites/pokemon/tentacruel_shiny.png",
       "levelUp": [
         {
+          "level": 0,
+          "move": "MOVE_OCTAZOOKA"
+        },
+        {
           "level": 1,
           "move": "MOVE_WRAP"
         },
@@ -22483,6 +22495,10 @@
           "move": "MOVE_DEFENSE_CURL"
         },
         {
+          "level": 1,
+          "move": "MOVE_GEOMANCY"
+        },
+        {
           "level": 4,
           "move": "MOVE_MUD_SPORT"
         },
@@ -22741,6 +22757,10 @@
         {
           "level": 1,
           "move": "MOVE_DEFENSE_CURL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_GEOMANCY"
         },
         {
           "level": 4,
@@ -24324,7 +24344,7 @@
       "levelUp": [
         {
           "level": 0,
-          "move": "MOVE_SMART_STRIKE"
+          "move": "MOVE_PLAY_ROUGH"
         },
         {
           "level": 0,
@@ -25096,7 +25116,7 @@
       "name": "Slowpoke",
       "types": [
         "TYPE_PSYCHIC",
-        "TYPE_PSYCHIC"
+        "TYPE_POISON"
       ],
       "stats": {
         "hp": 90,
@@ -38056,8 +38076,8 @@
       ],
       "stats": {
         "hp": 65,
-        "atk": 83,
-        "def": 57,
+        "atk": 90,
+        "def": 60,
         "spa": 95,
         "spd": 85,
         "spe": 105
@@ -38069,7 +38089,7 @@
         "EGG_GROUP_HUMAN_LIKE"
       ],
       "categories": [],
-      "bst": 490,
+      "bst": 500,
       "abilities": [
         "ABILITY_STATIC",
         "ABILITY_VITAL_SPIRIT"
@@ -38280,10 +38300,10 @@
       "stats": {
         "hp": 65,
         "atk": 95,
-        "def": 57,
+        "def": 60,
         "spa": 100,
         "spd": 85,
-        "spe": 93
+        "spe": 95
       },
       "evYield": {
         "spa": 2
@@ -38292,7 +38312,7 @@
         "EGG_GROUP_HUMAN_LIKE"
       ],
       "categories": [],
-      "bst": 495,
+      "bst": 500,
       "abilities": [
         "ABILITY_FLAME_BODY",
         "ABILITY_VITAL_SPIRIT"
@@ -43660,6 +43680,10 @@
         {
           "level": 60,
           "move": "MOVE_ZAP_CANNON"
+        },
+        {
+          "level": 65,
+          "move": "MOVE_TECHNO_BLAST"
         }
       ],
       "tmhm": [
@@ -44355,6 +44379,10 @@
         {
           "level": 65,
           "move": "MOVE_HEAD_SMASH"
+        },
+        {
+          "level": 70,
+          "move": "MOVE_ACCELEROCK"
         }
       ],
       "tmhm": [
@@ -44593,6 +44621,10 @@
         {
           "level": 65,
           "move": "MOVE_HEAD_SMASH"
+        },
+        {
+          "level": 70,
+          "move": "MOVE_ACCELEROCK"
         }
       ],
       "tmhm": [
@@ -49112,9 +49144,9 @@
       ],
       "stats": {
         "hp": 80,
-        "atk": 82,
+        "atk": 80,
         "def": 100,
-        "spa": 83,
+        "spa": 95,
         "spd": 100,
         "spe": 80
       },
@@ -49127,7 +49159,7 @@
         "EGG_GROUP_GRASS"
       ],
       "categories": [],
-      "bst": 525,
+      "bst": 535,
       "abilities": [
         "ABILITY_OVERGROW",
         "ABILITY_LEAF_GUARD"
@@ -49385,9 +49417,9 @@
       ],
       "stats": {
         "hp": 80,
-        "atk": 92,
+        "atk": 90,
         "def": 115,
-        "spa": 143,
+        "spa": 155,
         "spd": 115,
         "spe": 80
       },
@@ -49402,7 +49434,7 @@
       "categories": [
         "mega"
       ],
-      "bst": 625,
+      "bst": 635,
       "abilities": [
         "ABILITY_MEGA_SOL",
         "ABILITY_MEGA_SOL",
@@ -50039,10 +50071,10 @@
         "TYPE_GROUND"
       ],
       "stats": {
-        "hp": 78,
-        "atk": 84,
-        "def": 78,
-        "spa": 109,
+        "hp": 80,
+        "atk": 80,
+        "def": 80,
+        "spa": 110,
         "spd": 85,
         "spe": 100
       },
@@ -50053,7 +50085,7 @@
         "EGG_GROUP_FIELD"
       ],
       "categories": [],
-      "bst": 534,
+      "bst": 535,
       "abilities": [
         "ABILITY_BLAZE",
         "ABILITY_FLASH_FIRE"
@@ -50312,10 +50344,10 @@
         "TYPE_GHOST"
       ],
       "stats": {
-        "hp": 73,
-        "atk": 84,
-        "def": 78,
-        "spa": 119,
+        "hp": 80,
+        "atk": 80,
+        "def": 75,
+        "spa": 120,
         "spd": 85,
         "spe": 95
       },
@@ -50328,7 +50360,7 @@
       "categories": [
         "regional"
       ],
-      "bst": 534,
+      "bst": 535,
       "abilities": [
         "ABILITY_BLAZE",
         "ABILITY_FRISK"
@@ -50567,10 +50599,10 @@
         "TYPE_GROUND"
       ],
       "stats": {
-        "hp": 78,
-        "atk": 94,
-        "def": 98,
-        "spa": 149,
+        "hp": 80,
+        "atk": 90,
+        "def": 100,
+        "spa": 150,
         "spd": 95,
         "spe": 120
       },
@@ -50583,7 +50615,7 @@
       "categories": [
         "mega"
       ],
-      "bst": 634,
+      "bst": 635,
       "abilities": [
         "ABILITY_DROUGHT",
         "ABILITY_DROUGHT",
@@ -51266,9 +51298,9 @@
         "hp": 85,
         "atk": 105,
         "def": 100,
-        "spa": 79,
-        "spd": 83,
-        "spe": 78
+        "spa": 80,
+        "spd": 85,
+        "spe": 80
       },
       "evYield": {
         "atk": 2,
@@ -51279,7 +51311,7 @@
         "EGG_GROUP_WATER_1"
       ],
       "categories": [],
-      "bst": 530,
+      "bst": 535,
       "abilities": [
         "ABILITY_TORRENT",
         "ABILITY_SHEER_FORCE"
@@ -51549,9 +51581,9 @@
         "hp": 85,
         "atk": 160,
         "def": 125,
-        "spa": 89,
-        "spd": 93,
-        "spe": 78
+        "spa": 90,
+        "spd": 95,
+        "spe": 80
       },
       "evYield": {
         "atk": 2,
@@ -51564,7 +51596,7 @@
       "categories": [
         "mega"
       ],
-      "bst": 630,
+      "bst": 635,
       "abilities": [
         "ABILITY_DRAGONIZE",
         "ABILITY_DRAGONIZE",
@@ -51777,7 +51809,7 @@
         "atk": 45,
         "def": 30,
         "spa": 30,
-        "spd": 56,
+        "spd": 55,
         "spe": 50
       },
       "evYield": {
@@ -51787,7 +51819,7 @@
         "EGG_GROUP_FLYING"
       ],
       "categories": [],
-      "bst": 271,
+      "bst": 270,
       "abilities": [
         "ABILITY_INSOMNIA",
         "ABILITY_KEEN_EYE",
@@ -66746,7 +66778,7 @@
       "name": "Corsola",
       "types": [
         "TYPE_GHOST",
-        "TYPE_GHOST"
+        "TYPE_ROCK"
       ],
       "stats": {
         "hp": 60,
@@ -68512,12 +68544,12 @@
         "TYPE_DRAGON"
       ],
       "stats": {
-        "hp": 75,
-        "atk": 95,
-        "def": 95,
-        "spa": 95,
-        "spd": 95,
-        "spe": 85
+        "hp": 80,
+        "atk": 80,
+        "def": 100,
+        "spa": 120,
+        "spd": 100,
+        "spe": 90
       },
       "evYield": {
         "atk": 1,
@@ -68529,7 +68561,7 @@
         "EGG_GROUP_DRAGON"
       ],
       "categories": [],
-      "bst": 540,
+      "bst": 570,
       "abilities": [
         "ABILITY_SWIFT_SWIM",
         "ABILITY_SNIPER",
@@ -69370,6 +69402,10 @@
         {
           "level": 60,
           "move": "MOVE_HYPER_BEAM"
+        },
+        {
+          "level": 65,
+          "move": "MOVE_TECHNO_BLAST"
         }
       ],
       "tmhm": [
@@ -73239,8 +73275,8 @@
           "name": "Whirl Islands Lugia Chamber",
           "time": "",
           "method": "Legendary encounter",
-          "minLevel": 80,
-          "maxLevel": 80,
+          "minLevel": 65,
+          "maxLevel": 65,
           "rate": null
         },
         {
@@ -73248,8 +73284,8 @@
           "name": "Whirl Islands Lugia Chamber",
           "time": "",
           "method": "Legendary encounter",
-          "minLevel": 65,
-          "maxLevel": 65,
+          "minLevel": 80,
+          "maxLevel": 80,
           "rate": null
         }
       ],
@@ -85989,6 +86025,10 @@
         {
           "level": 58,
           "move": "MOVE_JAW_LOCK"
+        },
+        {
+          "level": 64,
+          "move": "MOVE_FISHIOUS_REND"
         }
       ],
       "tmhm": [
@@ -86268,6 +86308,10 @@
         {
           "level": 58,
           "move": "MOVE_JAW_LOCK"
+        },
+        {
+          "level": 64,
+          "move": "MOVE_FISHIOUS_REND"
         }
       ],
       "tmhm": [
@@ -91190,7 +91234,7 @@
       "name": "Shuppet",
       "types": [
         "TYPE_GHOST",
-        "TYPE_GHOST"
+        "TYPE_NORMAL"
       ],
       "stats": {
         "hp": 44,
@@ -91423,7 +91467,7 @@
       "name": "Banette",
       "types": [
         "TYPE_GHOST",
-        "TYPE_GHOST"
+        "TYPE_NORMAL"
       ],
       "stats": {
         "hp": 64,
@@ -91454,7 +91498,7 @@
         "ABILITY_CURSED_BODY"
       ],
       "innates": [
-        "ABILITY_PLAIN_SOUL",
+        "ABILITY_HAUNTING",
         "ABILITY_VOIDTOUCH",
         "ABILITY_PERISH_BODY"
       ],
@@ -91678,7 +91722,7 @@
       "name": "Banette",
       "types": [
         "TYPE_GHOST",
-        "TYPE_GHOST"
+        "TYPE_NORMAL"
       ],
       "stats": {
         "hp": 64,
@@ -91711,7 +91755,7 @@
         "ABILITY_PRANKSTER"
       ],
       "innates": [
-        "ABILITY_PLAIN_SOUL",
+        "ABILITY_HAUNTING",
         "ABILITY_VOIDTOUCH",
         "ABILITY_TOUGH_CLAWS"
       ],
@@ -112830,19 +112874,19 @@
       "categories": [],
       "bst": 330,
       "abilities": [
-        "ABILITY_BATTLE_ARMOR",
+        "ABILITY_POISON_TOUCH",
         "ABILITY_SNIPER",
         "ABILITY_KEEN_EYE"
       ],
       "regularAbilities": [
-        "ABILITY_BATTLE_ARMOR",
+        "ABILITY_POISON_TOUCH",
         "ABILITY_SNIPER"
       ],
       "hiddenAbilities": [
         "ABILITY_KEEN_EYE"
       ],
       "innates": [
-        "ABILITY_POISON_TOUCH"
+        "ABILITY_CONSUME"
       ],
       "sprite": "sprites/pokemon/skorupi.png",
       "shinySprite": "sprites/pokemon/skorupi_shiny.png",
@@ -112905,6 +112949,10 @@
         },
         {
           "level": 36,
+          "move": "MOVE_METAL_CLAW"
+        },
+        {
+          "level": 38,
           "move": "MOVE_NIGHT_SLASH"
         },
         {
@@ -113033,7 +113081,7 @@
       "name": "Drapion",
       "types": [
         "TYPE_POISON",
-        "TYPE_DARK"
+        "TYPE_STEEL"
       ],
       "stats": {
         "hp": 70,
@@ -113053,20 +113101,20 @@
       "categories": [],
       "bst": 500,
       "abilities": [
-        "ABILITY_BATTLE_ARMOR",
+        "ABILITY_POISON_TOUCH",
         "ABILITY_SNIPER",
         "ABILITY_KEEN_EYE"
       ],
       "regularAbilities": [
-        "ABILITY_BATTLE_ARMOR",
+        "ABILITY_POISON_TOUCH",
         "ABILITY_SNIPER"
       ],
       "hiddenAbilities": [
         "ABILITY_KEEN_EYE"
       ],
       "innates": [
-        "ABILITY_POISON_TOUCH",
         "ABILITY_CONSUME",
+        "ABILITY_HIVE_FORCE",
         "ABILITY_TOUGH_CLAWS"
       ],
       "sprite": "sprites/pokemon/drapion.png",
@@ -113142,6 +113190,10 @@
         },
         {
           "level": 36,
+          "move": "MOVE_METAL_CLAW"
+        },
+        {
+          "level": 38,
           "move": "MOVE_NIGHT_SLASH"
         },
         {
@@ -115792,6 +115844,10 @@
           "move": "MOVE_DISCHARGE"
         },
         {
+          "level": 42,
+          "move": "MOVE_OVERHEAT"
+        },
+        {
           "level": 46,
           "move": "MOVE_METAL_SOUND"
         },
@@ -116788,8 +116844,8 @@
       ],
       "stats": {
         "hp": 75,
-        "atk": 123,
-        "def": 67,
+        "atk": 125,
+        "def": 65,
         "spa": 95,
         "spd": 85,
         "spe": 95
@@ -117040,10 +117096,10 @@
       "stats": {
         "hp": 75,
         "atk": 95,
-        "def": 67,
+        "def": 65,
         "spa": 125,
         "spd": 95,
-        "spe": 83
+        "spe": 85
       },
       "evYield": {
         "spa": 3
@@ -117146,6 +117202,10 @@
         {
           "level": 64,
           "move": "MOVE_HYPER_BEAM"
+        },
+        {
+          "level": 72,
+          "move": "MOVE_MAGMA_STORM"
         }
       ],
       "tmhm": [
@@ -117605,6 +117665,10 @@
       "shinySprite": "sprites/pokemon/yanmega_shiny.png",
       "levelUp": [
         {
+          "level": 0,
+          "move": "MOVE_DRAGON_PULSE"
+        },
+        {
           "level": 1,
           "move": "MOVE_HYPNOSIS"
         },
@@ -117715,6 +117779,8 @@
         "MOVE_CRUNCH",
         "MOVE_DEFOG",
         "MOVE_DOUBLE_EDGE",
+        "MOVE_DRAGON_PULSE",
+        "MOVE_DRACO_METEOR",
         "MOVE_DREAM_EATER",
         "MOVE_DUAL_WINGBEAT",
         "MOVE_ENDURE",
@@ -119109,6 +119175,10 @@
         {
           "level": 65,
           "move": "MOVE_HYPER_BEAM"
+        },
+        {
+          "level": 70,
+          "move": "MOVE_TECHNO_BLAST"
         }
       ],
       "tmhm": [
@@ -140237,7 +140307,7 @@
       ],
       "innates": [
         "ABILITY_MANEUVERABILITY",
-        "ABILITY_OVERLOAD",
+        "ABILITY_TECHNICIAN",
         "ABILITY_CONSUME"
       ],
       "sprite": "sprites/pokemon/galvantula.png",
@@ -146826,8 +146896,8 @@
       ],
       "hiddenAbilities": [],
       "innates": [
-        "ABILITY_STRONG_JAW",
-        "ABILITY_AFTERMATH"
+        "ABILITY_DUAL_STRIKE",
+        "ABILITY_CONSUME"
       ],
       "sprite": "sprites/pokemon/zweilous.png",
       "shinySprite": "sprites/pokemon/zweilous_shiny.png",
@@ -147082,9 +147152,9 @@
       ],
       "hiddenAbilities": [],
       "innates": [
-        "ABILITY_STRONG_JAW",
-        "ABILITY_AFTERMATH",
-        "ABILITY_UNSTOPPABLE"
+        "ABILITY_HYDRA",
+        "ABILITY_CONSUME",
+        "ABILITY_REJUVENATION"
       ],
       "sprite": "sprites/pokemon/hydreigon.png",
       "shinySprite": "sprites/pokemon/hydreigon_shiny.png",
@@ -160375,6 +160445,10 @@
         {
           "level": 55,
           "move": "MOVE_SKILL_SWAP"
+        },
+        {
+          "level": 60,
+          "move": "MOVE_PSYCHO_BOOST"
         }
       ],
       "tmhm": [
@@ -160625,6 +160699,10 @@
         {
           "level": 55,
           "move": "MOVE_SKILL_SWAP"
+        },
+        {
+          "level": 60,
+          "move": "MOVE_PSYCHO_BOOST"
         }
       ],
       "tmhm": [
@@ -170340,6 +170418,10 @@
           "move": "MOVE_FEATHER_DANCE"
         },
         {
+          "level": 54,
+          "move": "MOVE_THOUSAND_ARROWS"
+        },
+        {
           "level": 58,
           "move": "MOVE_BRAVE_BIRD"
         }
@@ -170608,6 +170690,10 @@
         {
           "level": 51,
           "move": "MOVE_FEATHER_DANCE"
+        },
+        {
+          "level": 54,
+          "move": "MOVE_THOUSAND_ARROWS"
         },
         {
           "level": 58,
@@ -183431,6 +183517,10 @@
           "move": "MOVE_DRUM_BEATING"
         },
         {
+          "level": 0,
+          "move": "MOVE_ROCK_BLAST"
+        },
+        {
           "level": 1,
           "move": "MOVE_SCRATCH"
         },
@@ -183669,6 +183759,10 @@
         {
           "level": 0,
           "move": "MOVE_DRUM_BEATING"
+        },
+        {
+          "level": 0,
+          "move": "MOVE_ROCK_BLAST"
         },
         {
           "level": 1,
@@ -184209,6 +184303,10 @@
           "move": "MOVE_PYRO_BALL"
         },
         {
+          "level": 0,
+          "move": "MOVE_THUNDEROUS_KICK"
+        },
+        {
           "level": 1,
           "move": "MOVE_TACKLE"
         },
@@ -184441,6 +184539,10 @@
         {
           "level": 0,
           "move": "MOVE_PYRO_BALL"
+        },
+        {
+          "level": 0,
+          "move": "MOVE_THUNDEROUS_KICK"
         },
         {
           "level": 1,
@@ -184964,6 +185066,10 @@
           "move": "MOVE_SNIPE_SHOT"
         },
         {
+          "level": 0,
+          "move": "MOVE_SHADOW_BALL"
+        },
+        {
           "level": 1,
           "move": "MOVE_POUND"
         },
@@ -185197,6 +185303,10 @@
         {
           "level": 0,
           "move": "MOVE_SNIPE_SHOT"
+        },
+        {
+          "level": 0,
+          "move": "MOVE_SHADOW_BALL"
         },
         {
           "level": 1,
@@ -190577,7 +190687,7 @@
       "name": "Cursola",
       "types": [
         "TYPE_GHOST",
-        "TYPE_GHOST"
+        "TYPE_ROCK"
       ],
       "stats": {
         "hp": 60,
@@ -190833,6 +190943,10 @@
         {
           "level": 0,
           "move": "MOVE_IRON_DEFENSE"
+        },
+        {
+          "level": 0,
+          "move": "MOVE_KINGS_SHIELD"
         },
         {
           "level": 1,
@@ -221323,8 +221437,8 @@
       "constant": "MOVE_OCTAZOOKA",
       "name": "Octazooka",
       "description": "Fires a lump of ink to damage and cut accuracy.",
-      "power": 65,
-      "accuracy": 85,
+      "power": 80,
+      "accuracy": 100,
       "pp": 10,
       "priority": 0,
       "type": "TYPE_WATER",
@@ -221921,9 +222035,9 @@
       "constant": "MOVE_METAL_CLAW",
       "name": "Metal Claw",
       "description": "A claw attack that may raise the user's Attack.",
-      "power": 50,
-      "accuracy": 95,
-      "pp": 35,
+      "power": 70,
+      "accuracy": 100,
+      "pp": 30,
       "priority": 0,
       "type": "TYPE_STEEL",
       "category": "DAMAGE_CATEGORY_PHYSICAL",
@@ -228627,9 +228741,9 @@
       "constant": "MOVE_SNIPE_SHOT",
       "name": "Snipe Shot",
       "description": "The user ignores effects that draw in moves.",
-      "power": 85,
+      "power": 100,
       "accuracy": 100,
-      "pp": 15,
+      "pp": 10,
       "priority": 0,
       "type": "TYPE_WATER",
       "category": "DAMAGE_CATEGORY_SPECIAL",
@@ -229756,7 +229870,7 @@
       "constant": "MOVE_BARB_BARRAGE",
       "name": "Barb Barrage",
       "description": "Can poison on impact. Powers up against poisoned foes.",
-      "power": 60,
+      "power": 80,
       "accuracy": 100,
       "pp": 10,
       "priority": 0,
@@ -229784,7 +229898,7 @@
       "constant": "MOVE_BITTER_MALICE",
       "name": "Bitter Malice",
       "description": "A spine-chilling resentment. Lowers the foe's Attack.",
-      "power": 75,
+      "power": 80,
       "accuracy": 100,
       "pp": 15,
       "priority": 0,
@@ -229826,7 +229940,7 @@
       "constant": "MOVE_INFERNAL_PARADE",
       "name": "Infernal Parade",
       "description": "Hurts a foe harder if it has an ailment. May leave a burn.",
-      "power": 60,
+      "power": 80,
       "accuracy": 100,
       "pp": 15,
       "priority": 0,
@@ -231283,18 +231397,6 @@
             "name": "Kabutops",
             "dex": 122,
             "sprite": "sprites/pokemon/kabutops.png"
-          },
-          {
-            "species": "SPECIES_SKORUPI",
-            "name": "Skorupi",
-            "dex": 342,
-            "sprite": "sprites/pokemon/skorupi.png"
-          },
-          {
-            "species": "SPECIES_DRAPION",
-            "name": "Drapion",
-            "dex": 343,
-            "sprite": "sprites/pokemon/drapion.png"
           },
           {
             "species": "SPECIES_PERRSERKER",
@@ -244076,6 +244178,12 @@
             "sprite": "sprites/pokemon/whimsicott.png"
           },
           {
+            "species": "SPECIES_GALVANTULA",
+            "name": "Galvantula",
+            "dex": 427,
+            "sprite": "sprites/pokemon/galvantula.png"
+          },
+          {
             "species": "SPECIES_MIENSHAO",
             "name": "Mienshao",
             "dex": 441,
@@ -244727,18 +244835,6 @@
             "name": "Qwilfish",
             "dex": 182,
             "sprite": "sprites/pokemon/qwilfish.png"
-          },
-          {
-            "species": "SPECIES_ZWEILOUS",
-            "name": "Zweilous",
-            "dex": 451,
-            "sprite": "sprites/pokemon/zweilous.png"
-          },
-          {
-            "species": "SPECIES_HYDREIGON",
-            "name": "Hydreigon",
-            "dex": 452,
-            "sprite": "sprites/pokemon/hydreigon.png"
           }
         ]
       }
@@ -248950,6 +249046,18 @@
             "sprite": "sprites/pokemon/muk_alola.png"
           },
           {
+            "species": "SPECIES_SKORUPI",
+            "name": "Skorupi",
+            "dex": 342,
+            "sprite": "sprites/pokemon/skorupi.png"
+          },
+          {
+            "species": "SPECIES_DRAPION",
+            "name": "Drapion",
+            "dex": 343,
+            "sprite": "sprites/pokemon/drapion.png"
+          },
+          {
             "species": "SPECIES_SKRELP",
             "name": "Skrelp",
             "dex": 495,
@@ -248998,18 +249106,6 @@
             "name": "Gligar",
             "dex": 180,
             "sprite": "sprites/pokemon/gligar.png"
-          },
-          {
-            "species": "SPECIES_SKORUPI",
-            "name": "Skorupi",
-            "dex": 342,
-            "sprite": "sprites/pokemon/skorupi.png"
-          },
-          {
-            "species": "SPECIES_DRAPION",
-            "name": "Drapion",
-            "dex": 343,
-            "sprite": "sprites/pokemon/drapion.png"
           },
           {
             "species": "SPECIES_GLISCOR",
@@ -251965,18 +252061,6 @@
             "name": "Deino",
             "dex": 450,
             "sprite": "sprites/pokemon/deino.png"
-          },
-          {
-            "species": "SPECIES_ZWEILOUS",
-            "name": "Zweilous",
-            "dex": 451,
-            "sprite": "sprites/pokemon/zweilous.png"
-          },
-          {
-            "species": "SPECIES_HYDREIGON",
-            "name": "Hydreigon",
-            "dex": 452,
-            "sprite": "sprites/pokemon/hydreigon.png"
           },
           {
             "species": "SPECIES_URSALUNA",
@@ -258951,6 +259035,12 @@
             "name": "Ambipom",
             "dex": 322,
             "sprite": "sprites/pokemon/ambipom.png"
+          },
+          {
+            "species": "SPECIES_ZWEILOUS",
+            "name": "Zweilous",
+            "dex": 451,
+            "sprite": "sprites/pokemon/zweilous.png"
           }
         ]
       }
@@ -259052,12 +259142,6 @@
             "name": "Haxorus",
             "dex": 438,
             "sprite": "sprites/pokemon/haxorus.png"
-          },
-          {
-            "species": "SPECIES_HYDREIGON",
-            "name": "Hydreigon",
-            "dex": 452,
-            "sprite": "sprites/pokemon/hydreigon.png"
           },
           {
             "species": "SPECIES_TYRUNT",
@@ -259627,6 +259711,12 @@
             "name": "Ninjask",
             "dex": 235,
             "sprite": "sprites/pokemon/ninjask.png"
+          },
+          {
+            "species": "SPECIES_DRAPION",
+            "name": "Drapion",
+            "dex": 343,
+            "sprite": "sprites/pokemon/drapion.png"
           }
         ]
       }
@@ -260097,20 +260187,7 @@
       "slug": "plain-soul",
       "usage": {
         "base": [],
-        "innate": [
-          {
-            "species": "SPECIES_BANETTE",
-            "name": "Banette",
-            "dex": 272,
-            "sprite": "sprites/pokemon/banette.png"
-          },
-          {
-            "species": "SPECIES_BANETTE_MEGA",
-            "name": "Banette",
-            "dex": 272,
-            "sprite": "sprites/pokemon/banette_mega.png"
-          }
-        ]
+        "innate": []
       }
     },
     "ABILITY_FIGHTER_SOUL": {
@@ -261981,6 +262058,12 @@
             "sprite": "sprites/pokemon/sharpedo_mega.png"
           },
           {
+            "species": "SPECIES_SKORUPI",
+            "name": "Skorupi",
+            "dex": 342,
+            "sprite": "sprites/pokemon/skorupi.png"
+          },
+          {
             "species": "SPECIES_DRAPION",
             "name": "Drapion",
             "dex": 343,
@@ -262021,6 +262104,18 @@
             "name": "Mandibuzz",
             "dex": 449,
             "sprite": "sprites/pokemon/mandibuzz.png"
+          },
+          {
+            "species": "SPECIES_ZWEILOUS",
+            "name": "Zweilous",
+            "dex": 451,
+            "sprite": "sprites/pokemon/zweilous.png"
+          },
+          {
+            "species": "SPECIES_HYDREIGON",
+            "name": "Hydreigon",
+            "dex": 452,
+            "sprite": "sprites/pokemon/hydreigon.png"
           }
         ]
       }
@@ -262080,6 +262175,18 @@
       "usage": {
         "base": [],
         "innate": [
+          {
+            "species": "SPECIES_BANETTE",
+            "name": "Banette",
+            "dex": 272,
+            "sprite": "sprites/pokemon/banette.png"
+          },
+          {
+            "species": "SPECIES_BANETTE_MEGA",
+            "name": "Banette",
+            "dex": 272,
+            "sprite": "sprites/pokemon/banette_mega.png"
+          },
           {
             "species": "SPECIES_MISMAGIUS",
             "name": "Mismagius",
@@ -262878,12 +262985,6 @@
       "usage": {
         "base": [],
         "innate": [
-          {
-            "species": "SPECIES_GALVANTULA",
-            "name": "Galvantula",
-            "dex": 427,
-            "sprite": "sprites/pokemon/galvantula.png"
-          },
           {
             "species": "SPECIES_EELEKTROSS",
             "name": "Eelektross",
@@ -264070,6 +264171,12 @@
             "name": "Regigigas",
             "dex": 374,
             "sprite": "sprites/pokemon/regigigas.png"
+          },
+          {
+            "species": "SPECIES_HYDREIGON",
+            "name": "Hydreigon",
+            "dex": 452,
+            "sprite": "sprites/pokemon/hydreigon.png"
           },
           {
             "species": "SPECIES_PYUKUMUKU",
@@ -266116,6 +266223,29 @@
             "name": "Scyther",
             "dex": 107,
             "sprite": "sprites/pokemon/scyther.png"
+          }
+        ]
+      }
+    },
+    "ABILITY_HYDRA": {
+      "constant": "ABILITY_HYDRA",
+      "name": "Hydra",
+      "description": "Single-target attacks hit three times, with the second and third hits reduced in power.",
+      "power": 0,
+      "accuracy": 0,
+      "pp": 0,
+      "priority": 0,
+      "type": "",
+      "category": "",
+      "slug": "hydra",
+      "usage": {
+        "base": [],
+        "innate": [
+          {
+            "species": "SPECIES_HYDREIGON",
+            "name": "Hydreigon",
+            "dex": 452,
+            "sprite": "sprites/pokemon/hydreigon.png"
           }
         ]
       }
@@ -295406,7 +295536,7 @@
           "constant": "SPECIES_SKORUPI",
           "displayName": "Skorupi",
           "innates": [
-            "ABILITY_POISON_TOUCH"
+            "ABILITY_CONSUME"
           ],
           "itemConstant": "",
           "itemName": "",
@@ -307027,7 +307157,7 @@
           "displayName": "Galvantula",
           "innates": [
             "ABILITY_MANEUVERABILITY",
-            "ABILITY_OVERLOAD",
+            "ABILITY_TECHNICIAN",
             "ABILITY_CONSUME"
           ],
           "itemConstant": "",
@@ -309889,7 +310019,7 @@
           "constant": "SPECIES_BANETTE",
           "displayName": "Banette",
           "innates": [
-            "ABILITY_PLAIN_SOUL",
+            "ABILITY_HAUNTING",
             "ABILITY_VOIDTOUCH",
             "ABILITY_PERISH_BODY"
           ],
@@ -321949,7 +322079,7 @@
           "constant": "SPECIES_BANETTE",
           "displayName": "Banette",
           "innates": [
-            "ABILITY_PLAIN_SOUL",
+            "ABILITY_HAUNTING",
             "ABILITY_VOIDTOUCH",
             "ABILITY_PERISH_BODY"
           ],
@@ -338769,9 +338899,9 @@
           "constant": "SPECIES_HYDREIGON",
           "displayName": "Hydreigon",
           "innates": [
-            "ABILITY_STRONG_JAW",
-            "ABILITY_AFTERMATH",
-            "ABILITY_UNSTOPPABLE"
+            "ABILITY_HYDRA",
+            "ABILITY_CONSUME",
+            "ABILITY_REJUVENATION"
           ],
           "itemConstant": "ITEM_LIFE_ORB",
           "itemName": "Life Orb",
@@ -338999,9 +339129,9 @@
           "constant": "SPECIES_HYDREIGON",
           "displayName": "Hydreigon",
           "innates": [
-            "ABILITY_STRONG_JAW",
-            "ABILITY_AFTERMATH",
-            "ABILITY_UNSTOPPABLE"
+            "ABILITY_HYDRA",
+            "ABILITY_CONSUME",
+            "ABILITY_REJUVENATION"
           ],
           "itemConstant": "ITEM_LIFE_ORB",
           "itemName": "Life Orb",
