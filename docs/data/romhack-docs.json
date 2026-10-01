@@ -73031,8 +73031,8 @@
           "name": "Whirl Islands Lugia Chamber",
           "time": "",
           "method": "Legendary encounter",
-          "minLevel": 80,
-          "maxLevel": 80,
+          "minLevel": 65,
+          "maxLevel": 65,
           "rate": null
         },
         {
@@ -73040,8 +73040,8 @@
           "name": "Whirl Islands Lugia Chamber",
           "time": "",
           "method": "Legendary encounter",
-          "minLevel": 65,
-          "maxLevel": 65,
+          "minLevel": 80,
+          "maxLevel": 80,
           "rate": null
         }
       ],
@@ -294615,8 +294615,8 @@
           "moves": [
             "Tailwind",
             "Hone Claws",
-            "Swift",
-            "Helping Hand"
+            "Fury Attack",
+            "Wing Attack"
           ],
           "constant": "SPECIES_RUFFLET",
           "displayName": "Rufflet",
@@ -294645,7 +294645,7 @@
             "spe": 21
           },
           "moves": [
-            "Wing Attack",
+            "Supersonic",
             "Air Cutter",
             "Absorb",
             "Taunt"
@@ -294679,7 +294679,7 @@
           "moves": [
             "Quick Attack",
             "Fury Cutter",
-            "Harden",
+            "Knock Off",
             "Poison Sting"
           ],
           "constant": "SPECIES_GLIGAR",
@@ -294715,9 +294715,9 @@
           },
           "moves": [
             "Wing Attack",
-            "Air Cutter",
+            "Protect",
             "Quick Attack",
-            "Twister"
+            "Pursuit"
           ],
           "constant": "SPECIES_PIDGEOTTO",
           "displayName": "Pidgeotto",
@@ -295885,9 +295885,12 @@
           "name": "Scizor",
           "item": "Berry Juice",
           "level": 20,
-          "ability": "",
+          "ability": "Technician",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "hp": 40,
+            "atk": 40
+          },
           "ivs": {
             "hp": 15,
             "atk": 15,
@@ -295897,7 +295900,7 @@
             "spe": 15
           },
           "moves": [
-            "Steel Wing",
+            "Metal Claw",
             "Fury Cutter",
             "U turn",
             "Pursuit"
@@ -295919,9 +295922,12 @@
           "name": "Beedrill",
           "item": "Berry Juice",
           "level": 20,
-          "ability": "",
+          "ability": "Sniper",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "atk": 40,
+            "spe": 40
+          },
           "ivs": {
             "hp": 15,
             "atk": 15,
@@ -295953,9 +295959,12 @@
           "name": "Pinsir",
           "item": "",
           "level": 20,
-          "ability": "",
+          "ability": "Moxie",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "atk": 40,
+            "def": 40
+          },
           "ivs": {
             "hp": 12,
             "atk": 12,
@@ -295984,12 +295993,15 @@
           "sprite": "sprites/pokemon/pinsir.png"
         },
         {
-          "name": "Larvesta",
+          "name": "Vibrava",
           "item": "",
           "level": 20,
-          "ability": "Flame Body",
+          "ability": "Levitate",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "spa": 40,
+            "spd": 40
+          },
           "ivs": {
             "hp": 12,
             "atk": 12,
@@ -295999,21 +296011,22 @@
             "spe": 12
           },
           "moves": [
-            "Bug Bite",
-            "Fire Spin",
-            "Absorb",
-            "String Shot"
+            "Dragon Breath",
+            "Mud Shot",
+            "Gust",
+            "Sandstorm"
           ],
-          "constant": "SPECIES_LARVESTA",
-          "displayName": "Larvesta",
+          "constant": "SPECIES_VIBRAVA",
+          "displayName": "Vibrava",
           "innates": [
-            "ABILITY_BLAZING_SUN"
+            "ABILITY_SAND_FORCE",
+            "ABILITY_RESONANCE"
           ],
           "itemConstant": "",
           "itemName": "",
           "itemDescription": "",
           "itemIcon": null,
-          "sprite": "sprites/pokemon/larvesta.png"
+          "sprite": "sprites/pokemon/vibrava.png"
         }
       ]
     },
@@ -298826,7 +298839,10 @@
           "level": 27,
           "ability": "Friend Guard",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "atk": 40,
+            "spe": 40
+          },
           "ivs": {
             "hp": 15,
             "atk": 15,
@@ -298860,7 +298876,10 @@
           "level": 27,
           "ability": "Regenerator",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "hp": 40,
+            "def": 40
+          },
           "ivs": {
             "hp": 15,
             "atk": 15,
@@ -298894,7 +298913,10 @@
           "level": 27,
           "ability": "Skill Link",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "hp": 40,
+            "atk": 40
+          },
           "ivs": {
             "hp": 15,
             "atk": 15,
@@ -298928,7 +298950,10 @@
           "level": 27,
           "ability": "Scrappy",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "hp": 40,
+            "atk": 40
+          },
           "ivs": {
             "hp": 15,
             "atk": 15,
@@ -302714,14 +302739,14 @@
       ],
       "party": [
         {
-          "name": "Mimikyu",
-          "item": "",
+          "name": "Ninetales",
+          "item": "Heat Rock",
           "level": 34,
-          "ability": "",
+          "ability": "Drought",
           "nature": "",
           "evs": {
-            "hp": 70,
-            "atk": 70
+            "spa": 70,
+            "spd": 70
           },
           "ivs": {
             "hp": 25,
@@ -302732,23 +302757,23 @@
             "spe": 25
           },
           "moves": [
-            "Slash",
-            "Shadow Sneak",
-            "Curse",
-            "Draining Kiss"
+            "Hex",
+            "Incinerate",
+            "Will-o-Wisp",
+            "Nasty Plot"
           ],
-          "constant": "SPECIES_MIMIKYU_DISGUISED",
-          "displayName": "Mimikyu",
+          "constant": "SPECIES_NINETALES",
+          "displayName": "Ninetales",
           "innates": [
-            "ABILITY_CURSED_BODY",
-            "ABILITY_CUTE_CHARM",
-            "ABILITY_DAZZLING"
+            "ABILITY_FLAME_BODY",
+            "ABILITY_MAGIC_BOUNCE",
+            "ABILITY_CURSED_BODY"
           ],
-          "itemConstant": "",
-          "itemName": "",
-          "itemDescription": "",
-          "itemIcon": null,
-          "sprite": "sprites/pokemon/mimikyu_disguised.png"
+          "itemConstant": "ITEM_HEAT_ROCK",
+          "itemName": "Heat Rock",
+          "itemDescription": "Extends the length of Sunny Day if used by the holder.",
+          "itemIcon": "sprites/items/heat_rock.png",
+          "sprite": "sprites/pokemon/ninetales.png"
         },
         {
           "name": "Misdreavus",
@@ -302772,7 +302797,7 @@
             "Shadow Ball",
             "Pain Split",
             "Psychic Noise",
-            "Hex"
+            "Dazzling Gleam"
           ],
           "constant": "SPECIES_MISDREAVUS",
           "displayName": "Misdreavus",
@@ -302787,10 +302812,10 @@
           "sprite": "sprites/pokemon/misdreavus.png"
         },
         {
-          "name": "Shedinja",
+          "name": "Golurk",
           "item": "Heavy-Duty Boots",
           "level": 34,
-          "ability": "Wonder Guard",
+          "ability": "No Guard",
           "nature": "",
           "evs": {
             "atk": 70,
@@ -302805,23 +302830,23 @@
             "spe": 25
           },
           "moves": [
-            "Shadow Sneak",
-            "Dream Eater",
-            "Absorb",
-            "Toxic"
+            "Shadow Punch",
+            "Rollout",
+            "High Horsepower",
+            "Knock Off"
           ],
-          "constant": "SPECIES_SHEDINJA",
-          "displayName": "Shedinja",
+          "constant": "SPECIES_GOLURK",
+          "displayName": "Golurk",
           "innates": [
-            "ABILITY_INFILTRATOR",
-            "ABILITY_ANTICIPATION",
-            "ABILITY_FRISK"
+            "ABILITY_CURSED_BODY",
+            "ABILITY_SPECTRAL_DRAIN",
+            "ABILITY_MYSTIC_FORCE"
           ],
           "itemConstant": "ITEM_HEAVY_DUTY_BOOTS",
           "itemName": "Heavy-Duty Boots",
           "itemDescription": "Boots that prevent effects of traps set in the field.",
           "itemIcon": "sprites/items/heavy_duty_boots.png",
-          "sprite": "sprites/pokemon/shedinja.png"
+          "sprite": "sprites/pokemon/golurk.png"
         },
         {
           "name": "Doublade",
@@ -302880,7 +302905,7 @@
           "moves": [
             "Hypnosis",
             "Shadow Ball",
-            "Thunderbolt",
+            "Sludge Bomb",
             "Dream Eater"
           ],
           "constant": "SPECIES_GENGAR",
@@ -306403,7 +306428,10 @@
           "level": 42,
           "ability": "Intimidate",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "atk": 70,
+            "spe": 70
+          },
           "ivs": {
             "hp": 30,
             "atk": 30,
@@ -306437,7 +306465,10 @@
           "level": 42,
           "ability": "",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "hp": 70,
+            "spe": 70
+          },
           "ivs": {
             "hp": 30,
             "atk": 30,
@@ -306449,8 +306480,8 @@
           "moves": [
             "Brick Break",
             "Taunt",
-            "Assurance",
-            "Phantom Force"
+            "Bulk Up",
+            "Rage Fist"
           ],
           "constant": "SPECIES_ANNIHILAPE",
           "displayName": "Annihilape",
@@ -306471,7 +306502,10 @@
           "level": 42,
           "ability": "Regenerator",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "atk": 70,
+            "spe": 70
+          },
           "ivs": {
             "hp": 30,
             "atk": 30,
@@ -306505,7 +306539,10 @@
           "level": 42,
           "ability": "",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "hp": 70,
+            "atk": 70
+          },
           "ivs": {
             "hp": 30,
             "atk": 30,
@@ -306539,7 +306576,10 @@
           "level": 42,
           "ability": "Defiant",
           "nature": "",
-          "evs": {},
+          "evs": {
+            "hp": 70,
+            "atk": 70
+          },
           "ivs": {
             "hp": 30,
             "atk": 30,
@@ -306960,10 +307000,10 @@
           "sprite": "sprites/pokemon/corviknight.png"
         },
         {
-          "name": "Tinkaton",
-          "item": "Shuca Berry",
+          "name": "Blastoise",
+          "item": "Lum Berry",
           "level": 42,
-          "ability": "Own Tempo",
+          "ability": "Rain Dish",
           "nature": "",
           "evs": {},
           "ivs": {
@@ -306975,23 +307015,23 @@
             "spe": 22
           },
           "moves": [
-            "Light Screen",
-            "Fake Out",
-            "Gigaton Hammer",
-            "Thunder Wave"
+            "Flash Cannon",
+            "Scald",
+            "Ice Beam",
+            "Aura Sphere"
           ],
-          "constant": "SPECIES_TINKATON",
-          "displayName": "Tinkaton",
+          "constant": "SPECIES_BLASTOISE",
+          "displayName": "Blastoise",
           "innates": [
-            "ABILITY_PRANKSTER",
-            "ABILITY_MAGNET_PULL",
-            "ABILITY_STEELWORKER"
+            "ABILITY_SHELL_ARMOR",
+            "ABILITY_BULLETPROOF",
+            "ABILITY_ROCK_HEAD"
           ],
-          "itemConstant": "ITEM_SHUCA_BERRY",
-          "itemName": "Shuca Berry",
-          "itemDescription": "A hold item that weakens a Ground move if weak to it.",
-          "itemIcon": "sprites/items/shuca_berry.png",
-          "sprite": "sprites/pokemon/tinkaton.png"
+          "itemConstant": "ITEM_LUM_BERRY",
+          "itemName": "Lum Berry",
+          "itemDescription": "A hold item that heals any status problem in battle.",
+          "itemIcon": "sprites/items/lum_berry.png",
+          "sprite": "sprites/pokemon/blastoise.png"
         },
         {
           "name": "Magnezone",
@@ -309769,7 +309809,7 @@
         },
         {
           "name": "Sirfetch'd",
-          "item": "Assault Vest",
+          "item": "Leek",
           "level": 45,
           "ability": "Scrappy",
           "nature": "",
@@ -309786,7 +309826,7 @@
             "spe": 15
           },
           "moves": [
-            "Slash",
+            "King's Shield",
             "Brutal Swing",
             "Leaf Blade",
             "Brick Break"
@@ -309798,10 +309838,10 @@
             "ABILITY_SNIPER",
             "ABILITY_LEAF_GUARD"
           ],
-          "itemConstant": "ITEM_ASSAULT_VEST",
-          "itemName": "Assault Vest",
-          "itemDescription": "Raises Sp. Def but prevents the use of status moves.",
-          "itemIcon": "sprites/items/assault_vest.png",
+          "itemConstant": "ITEM_LEEK",
+          "itemName": "Leek",
+          "itemDescription": "A hold item that raises Farfetch'd's critical-hit ratio.",
+          "itemIcon": "sprites/items/leek.png",
           "sprite": "sprites/pokemon/sirfetchd.png"
         },
         {
@@ -313220,7 +313260,7 @@
         },
         {
           "name": "Sirfetch'd",
-          "item": "Assault Vest",
+          "item": "Leek",
           "level": 48,
           "ability": "Scrappy",
           "nature": "",
@@ -313237,7 +313277,7 @@
             "spe": 30
           },
           "moves": [
-            "Slash",
+            "King's Shield",
             "Brutal Swing",
             "Leaf Blade",
             "Brick Break"
@@ -313249,10 +313289,10 @@
             "ABILITY_SNIPER",
             "ABILITY_LEAF_GUARD"
           ],
-          "itemConstant": "ITEM_ASSAULT_VEST",
-          "itemName": "Assault Vest",
-          "itemDescription": "Raises Sp. Def but prevents the use of status moves.",
-          "itemIcon": "sprites/items/assault_vest.png",
+          "itemConstant": "ITEM_LEEK",
+          "itemName": "Leek",
+          "itemDescription": "A hold item that raises Farfetch'd's critical-hit ratio.",
+          "itemIcon": "sprites/items/leek.png",
           "sprite": "sprites/pokemon/sirfetchd.png"
         },
         {
@@ -315217,10 +315257,10 @@
             "spe": 31
           },
           "moves": [
-            "Brave Bird",
+            "Fly",
             "Close Combat",
             "U-Turn",
-            "Facade"
+            "Roost"
           ],
           "constant": "SPECIES_STARAPTOR",
           "displayName": "Staraptor",
@@ -315415,10 +315455,10 @@
             "spe": 31
           },
           "moves": [
-            "Brave Bird",
+            "Fly",
             "Close Combat",
             "U-Turn",
-            "Facade"
+            "Roost"
           ],
           "constant": "SPECIES_STARAPTOR",
           "displayName": "Staraptor",
@@ -315492,7 +315532,7 @@
             "Crunch",
             "Ice Punch",
             "Liquidation",
-            "Strength"
+            "Aqua Jet"
           ],
           "constant": "SPECIES_FERALIGATR",
           "displayName": "Feraligatr",
@@ -316144,10 +316184,10 @@
             "spe": 31
           },
           "moves": [
-            "Flamethrower",
-            "Dark Pulse",
+            "Gunk Shot",
+            "Crunch",
             "Glare",
-            "Sludge Bomb"
+            "Coil"
           ],
           "constant": "SPECIES_ARBOK",
           "displayName": "Arbok",
@@ -323469,10 +323509,10 @@
             "spe": 31
           },
           "moves": [
-            "Brave Bird",
+            "Fly",
             "Close Combat",
             "U-Turn",
-            "Facade"
+            "Roost"
           ],
           "constant": "SPECIES_STARAPTOR",
           "displayName": "Staraptor",
@@ -323544,7 +323584,7 @@
           },
           "moves": [
             "Giga Drain",
-            "Draining Kiss",
+            "Moonblast",
             "Light Screen",
             "Solar Beam"
           ],
@@ -323705,10 +323745,10 @@
             "spe": 31
           },
           "moves": [
-            "Brave Bird",
+            "Fly",
             "Close Combat",
             "U-Turn",
-            "Facade"
+            "Roost"
           ],
           "constant": "SPECIES_STARAPTOR",
           "displayName": "Staraptor",
@@ -323922,10 +323962,10 @@
           },
           "ivs": {},
           "moves": [
-            "Brave Bird",
+            "Fly",
             "Close Combat",
             "U-Turn",
-            "Facade"
+            "Roost"
           ],
           "constant": "SPECIES_STARAPTOR",
           "displayName": "Staraptor",
@@ -332073,7 +332113,14 @@
             "spd": 252,
             "spe": 16
           },
-          "ivs": {},
+          "ivs": {
+            "hp": 31,
+            "atk": 31,
+            "def": 31,
+            "spa": 31,
+            "spd": 31,
+            "spe": 31
+          },
           "moves": [
             "Bulk Up",
             "Protect",
@@ -332141,7 +332188,14 @@
             "def": 4,
             "spe": 252
           },
-          "ivs": {},
+          "ivs": {
+            "hp": 31,
+            "atk": 31,
+            "def": 31,
+            "spa": 31,
+            "spd": 31,
+            "spe": 31
+          },
           "moves": [
             "Double Shock",
             "Close Combat",
@@ -332173,7 +332227,14 @@
             "spd": 60,
             "spe": 124
           },
-          "ivs": {},
+          "ivs": {
+            "hp": 31,
+            "atk": 31,
+            "def": 31,
+            "spa": 31,
+            "spd": 31,
+            "spe": 31
+          },
           "moves": [
             "Swords Dance",
             "Flying Press",
@@ -332204,12 +332265,19 @@
             "spd": 164,
             "spe": 96
           },
-          "ivs": {},
+          "ivs": {
+            "hp": 31,
+            "atk": 31,
+            "def": 31,
+            "spa": 31,
+            "spd": 31,
+            "spe": 31
+          },
           "moves": [
             "Bulk Up",
             "Drain Punch",
             "Knock Off",
-            "Substitute"
+            "Rage Fist"
           ],
           "constant": "SPECIES_POLIWRATH",
           "displayName": "Poliwrath",
@@ -334620,8 +334688,8 @@
           "moves": [
             "First Impression",
             "Outrage",
-            "Earthquake",
-            "Poison Jab"
+            "Iron Tail",
+            "Earthquake"
           ],
           "constant": "SPECIES_HAXORUS",
           "displayName": "Haxorus",
