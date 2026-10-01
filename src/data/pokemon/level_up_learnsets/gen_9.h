@@ -1257,6 +1257,7 @@ static const struct LevelUpMove sDiglettLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_SAND_ATTACK),
     LEVEL_UP_MOVE( 4, MOVE_GROWL),
+    LEVEL_UP_MOVE( 6, Covet),
     LEVEL_UP_MOVE( 8, MOVE_ASTONISH),
     LEVEL_UP_MOVE(12, MOVE_MUD_SLAP),
     LEVEL_UP_MOVE(16, MOVE_BULLDOZE),
@@ -1265,6 +1266,7 @@ static const struct LevelUpMove sDiglettLevelUpLearnset[] = {
     LEVEL_UP_MOVE(28, MOVE_SANDSTORM),
     LEVEL_UP_MOVE(32, MOVE_DIG),
     LEVEL_UP_MOVE(36, MOVE_EARTH_POWER),
+    LEVEL_UP_MOVE(38, MOVE_PLAY_ROUGH),
     LEVEL_UP_MOVE(40, MOVE_EARTHQUAKE),
     LEVEL_UP_MOVE(44, MOVE_FISSURE),
     LEVEL_UP_END
@@ -1272,6 +1274,7 @@ static const struct LevelUpMove sDiglettLevelUpLearnset[] = {
 
 static const struct LevelUpMove sDugtrioLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_SAND_TOMB),
+    LEVEL_UP_MOVE( 0, MOVE_FAIRY_LOCK),
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_SAND_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
@@ -1285,6 +1288,7 @@ static const struct LevelUpMove sDugtrioLevelUpLearnset[] = {
     LEVEL_UP_MOVE(30, MOVE_SANDSTORM),
     LEVEL_UP_MOVE(36, MOVE_DIG),
     LEVEL_UP_MOVE(42, MOVE_EARTH_POWER),
+    LEVEL_UP_MOVE(44, MOVE_PLAY_ROUGH),
     LEVEL_UP_MOVE(48, MOVE_EARTHQUAKE),
     LEVEL_UP_MOVE(54, MOVE_FISSURE),
     LEVEL_UP_END

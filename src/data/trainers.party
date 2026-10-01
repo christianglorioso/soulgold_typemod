@@ -1899,10 +1899,10 @@ Arbok @ Life Orb
 Level: 52
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 160 Atk / 160 Spe
-- Flamethrower
-- Dark Pulse
+- Gunk Shot
+- Crunch
 - Glare
-- Sludge Bomb
+- Coil
 
 Toxapex @ Leftovers
 Level: 53
@@ -3057,12 +3057,12 @@ IVs: 30 HP / 30 Atk / 30 Def / 12 SpA / 15 SpD / 15 Spe
 - Bullet Punch
 - Pursuit
 
-Sirfetch'd @ Assault Vest
+Sirfetch'd @ Leek
 Level: 45
 Ability: Scrappy
 EVs: 160 HP / 160 Atk
 IVs: 30 HP / 30 Atk / 30 Def / 12 SpA / 15 SpD / 15 Spe
-- Slash
+- King's Shield
 - Brutal Swing
 - Leaf Blade
 - Brick Break
@@ -3826,10 +3826,10 @@ Staraptor @ Sharp Beak
 Level: 49
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
-- Brave Bird
+- Fly
 - Close Combat
 - U-Turn
-- Facade
+- Roost
 
 Victreebel @ Black Sludge
 Level: 50
@@ -3847,7 +3847,7 @@ EVs: 252 Atk / 252 HP
 - Crunch
 - Ice Punch
 - Liquidation
-- Strength
+- Aqua Jet
 
 === TRAINER_RIVAL_TOTODILE_5 ===
 Name: {RIVAL}
@@ -3948,10 +3948,10 @@ Staraptor @ Sharp Beak
 Ability: Intimidate  
 EVs: 252 Atk / 252 Spe
 Level: 66  
-- Brave Bird  
+- Fly
 - Close Combat  
 - U-Turn  
-- Facade  
+- Roost  
 
 Victreebel @ Occa Berry  
 Ability: Gluttony  
@@ -4887,12 +4887,12 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Bullet Punch
 - Pursuit
 
-Sirfetch'd @ Assault Vest
+Sirfetch'd @ Leek
 Level: 48
 Ability: Scrappy
 EVs: 160 HP / 160 Atk
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Slash
+- King's Shield
 - Brutal Swing
 - Leaf Blade
 - Brick Break
@@ -5167,6 +5167,7 @@ Maushold @ Salac Berry
 Level: 27
 Ability: Friend Guard
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 40 Atk / 40 Spe
 - Headbutt
 - Bite
 - Tidy Up
@@ -5176,6 +5177,7 @@ Audino @ Eject Button
 Level: 27
 Ability: Regenerator
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 40 HP / 40 Def
 - Reflect
 - Light Screen
 - Draining Kiss
@@ -5185,6 +5187,7 @@ Cinccino @ Sitrus Berry
 Level: 27
 Ability: Skill Link
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 40 HP/ 40 Atk
 - Tail Slap
 - Bullet Seed
 - Helping Hand
@@ -5194,6 +5197,7 @@ Miltank @ Rocky Helmet
 Level: 27
 Ability: Scrappy
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 40 HP / 40 Atk
 - Icy Wind
 - Fire Punch
 - Body Slam
@@ -5693,14 +5697,15 @@ AI: Smart Trainer
 Mugshot: Purple
 Difficulty: Hard
 
-Mimikyu
+Ninetales @ Heat Rock
 Level: 34
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-EVs: 70 Atk / 70 HP
-- Slash
-- Shadow Sneak
-- Curse
-- Draining Kiss
+EVs: 70 SpA / 70 SpD
+Ability: Drought
+- Hex
+- Incinerate
+- Will-o-Wisp
+- Nasty Plot
 
 Misdreavus @ Spell Tag
 Level: 34
@@ -5709,17 +5714,17 @@ EVs: 70 SpA / 70 HP
 - Shadow Ball
 - Pain Split
 - Psychic Noise
-- Hex
+- Dazzling Gleam
 
-Shedinja @ Heavy-Duty Boots
+Golurk @ Heavy-Duty Boots
 Level: 34
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 EVs: 70 Atk / 70 Spe
-Ability: Wonder Guard
-- Shadow Sneak
-- Dream Eater
-- Absorb
-- Toxic
+Ability: No Guard
+- Shadow Punch
+- Rollout
+- High Horsepower
+- Knock Off
 
 Doublade @ Eviolite
 Level: 34
@@ -5736,7 +5741,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 EVs: 70 SpA / 70 HP
 - Hypnosis
 - Shadow Ball
-- Thunderbolt
+- Sludge Bomb
 - Dream Eater
 
 
@@ -6994,10 +6999,10 @@ Ability: Intimidate
 EVs: 252 Atk / 252 Spe
 Level: 66  
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
-- Brave Bird  
+- Fly
 - Close Combat  
 - U-Turn  
-- Facade  
+- Roost  
 
 Clodsire @ Rocky Helmet  
 Ability: Water Absorb  
@@ -7113,10 +7118,10 @@ Staraptor @ Sharp Beak
 Level: 49
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
-- Brave Bird
+- Fly
 - Close Combat
 - U-Turn
-- Facade
+- Roost
 
 Clodsire @ Shuca Berry
 Level: 50
@@ -8954,8 +8959,8 @@ Level: 82
 Jolly Nature
 - First Impression
 - Outrage
+- Iron Tail
 - Earthquake
-- Poison Jab
 
 Noivern @ Heavy-Duty Boots
 Ability: Frisk
@@ -9927,14 +9932,14 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 - Roost
 - Steel Wing
 
-Tinkaton @ Shuca Berry
+Blastoise @ Lum Berry
 Level: 42
-Ability: Own Tempo
+Ability: Rain Dish
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Light Screen
-- Fake Out
-- Gigaton Hammer
-- Thunder Wave
+- Flash Cannon
+- Scald
+- Ice Beam
+- Aura Sphere
 
 Magnezone @ Leftovers
 Level: 42
@@ -10950,10 +10955,10 @@ Ability: Intimidate
 EVs: 252 Atk / 252 Spe
 Level: 66  
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Brave Bird  
+- Fly
 - Close Combat  
 - U-Turn  
-- Facade  
+- Roost  
 
 Chandelure @ Absorb Bulb  
 Ability: Flash Fire  
@@ -10972,7 +10977,7 @@ Level: 67
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Mild Nature  
 - Giga Drain  
-- Draining Kiss  
+- Moonblast
 - Light Screen  
 - Solar Beam  
 
@@ -11279,15 +11284,19 @@ Difficulty: Hard
 
 Scizor @ Berry Juice
 Level: 20
+Ability: Technician
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Steel Wing
+EVs: 40 HP / 40 Atk
+- Metal Claw
 - Fury Cutter
 - U turn
 - Pursuit
 
 Beedrill @ Berry Juice
 Level: 20
+Ability: Sniper
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 40 Atk / 40 Spe
 - Twineedle
 - Fury Attack
 - Pursuit
@@ -11295,20 +11304,23 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Pinsir
 Level: 20
+Ability: Moxie
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 40 Atk / 40 Def
 - Seismic Toss
 - Bug Bite
 - Focus Energy
 - Storm Throw
 
-Larvesta
+Vibrava
 Level: 20
-Ability: Flame Body
+Ability: Levitate
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bug Bite
-- Fire Spin
-- Absorb
-- String Shot
+EVs: 40 SpA / 40 SpD
+- Dragon Breath
+- Mud Shot
+- Gust
+- Sandstorm
 
 === TRAINER_BOB ===
 Name: Bob
@@ -12839,8 +12851,8 @@ Ability: Hustle
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Tailwind
 - Hone Claws
-- Swift
-- Helping Hand
+- Fury Attack
+- Wing Attack
 
 Noibat
 Hardy Nature
@@ -12848,7 +12860,7 @@ Level: 12
 Ability: Infiltrator
 IVs: 20 HP / 10 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Shiny: No
-- Wing Attack
+- Supersonic
 - Air Cutter
 - Absorb
 - Taunt
@@ -12861,7 +12873,7 @@ IVs: 10 HP / 10 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 Shiny: No
 - Quick Attack
 - Fury Cutter
-- Harden
+- Knock Off
 - Poison Sting
 
 Pidgeotto @ Oran Berry
@@ -12872,9 +12884,9 @@ IVs: 20 HP / 10 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 EVs: 4 HP / 40 Atk / 20 SpD / 30 Spe
 Shiny: No
 - Wing Attack
-- Air Cutter
+- Protect
 - Quick Attack
-- Twister
+- Pursuit
 
 === TRAINER_CHUCK_1 ===
 Name: Chuck
@@ -12935,6 +12947,7 @@ Hitmontop @ Adrenaline Orb
 Ability: Intimidate
 Level: 42
 IVs: 30 HP / 30 Atk / 30 Def / 12 SpA / 15 SpD / 15 Spe
+EVs: 70 Atk / 70 Spe
 - Triple Axel
 - Rapid Spin
 - Bullet Punch
@@ -12943,15 +12956,17 @@ IVs: 30 HP / 30 Atk / 30 Def / 12 SpA / 15 SpD / 15 Spe
 Annihilape @ Chesto Berry
 Level: 42
 IVs: 30 HP / 30 Atk / 30 Def / 12 SpA / 15 SpD / 15 Spe
+EVs: 70 HP / 70 Spe
 - Brick Break
 - Taunt
-- Assurance
-- Phantom Force
+- Bulk Up
+- Rage Fist
 
 Mienshao @ Sitrus Berry
 Level: 42
 Ability: Regenerator
 IVs: 30 HP / 30 Atk / 30 Def / 12 SpA / 15 SpD / 15 Spe
+EVs: 70 Atk / 70 Spe
 - U turn
 - Drain Punch
 - Ice Spinner
@@ -12960,6 +12975,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 12 SpA / 15 SpD / 15 Spe
 Poliwrath @ Black Belt
 Level: 42
 IVs: 30 HP / 30 Atk / 30 Def / 12 SpA / 15 SpD / 15 Spe
+EVs: 70 HP / 70 Atk
 - Hypnosis
 - Drain Punch
 - Waterfall
@@ -12969,6 +12985,7 @@ Falinks @ Black Belt
 Ability: Defiant
 Level: 42
 IVs: 30 HP / 30 Atk / 30 Def / 12 SpA / 15 SpD / 15 Spe
+EVs: 70 HP / 70 Atk
 - First Impression
 - No Retreat
 - Megahorn
@@ -13062,6 +13079,7 @@ Annihilape @ Leftovers
 Level: 78
 Ability: Defiant
 EVs: 240 HP / 252 SpD / 16 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Careful
 - Bulk Up
 - Protect
@@ -13082,6 +13100,7 @@ Pawmot @ Choice Scarf
 Level: 78
 Ability: Iron Fist
 EVs: 252 Atk / 4 Def / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Jolly
 - Double Shock
 - Close Combat
@@ -13092,6 +13111,7 @@ Hawlucha @ Fightite
 Level: 79
 Ability: Mold Breaker
 EVs: 72 HP / 252 Atk / 60 SpD / 124 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Adamant
 - Swords Dance
 - Flying Press
@@ -13101,12 +13121,13 @@ Nature: Adamant
 Poliwrath @ Leftovers
 Ability: Water Absorb
 EVs: 248 HP / 164 SpD / 96 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Level: 78
 Careful Nature
 - Bulk Up
 - Drain Punch
 - Knock Off
-- Substitute
+- Rage Fist
 
 === TRAINER_FALKNER_2 ===
 Name: Falkner
@@ -13727,7 +13748,7 @@ Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Hydro Pump
-- Body Slam
+- Flash Cannon
 - Earthquake
 
 Espeon @ Sitrus Berry
