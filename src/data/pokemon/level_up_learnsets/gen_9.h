@@ -3858,6 +3858,7 @@ static const struct LevelUpMove sElectabuzzLevelUpLearnset[] = {
 
 #if P_GEN_4_CROSS_EVOS
 static const struct LevelUpMove sElectivireLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_DRAIN_PUNCH),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_SHOCK),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
@@ -3921,6 +3922,7 @@ static const struct LevelUpMove sMagmarLevelUpLearnset[] = {
 
 #if P_GEN_4_CROSS_EVOS
 static const struct LevelUpMove sMagmortarLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_SLUDGE_BOMB),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
     LEVEL_UP_MOVE( 1, MOVE_SMOKESCREEN),
@@ -10456,7 +10458,7 @@ static const struct LevelUpMove sKricketuneLevelUpLearnset[] = {
 static const struct LevelUpMove sShinxLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
-    LEVEL_UP_MOVE( 4, MOVE_THUNDER_SHOCK),
+    LEVEL_UP_MOVE( 4, MOVE_NUZZLE),
     LEVEL_UP_MOVE( 8, MOVE_CHARGE),
     LEVEL_UP_MOVE(12, MOVE_BITE),
     LEVEL_UP_MOVE(16, MOVE_SPARK),
@@ -10474,11 +10476,12 @@ static const struct LevelUpMove sShinxLevelUpLearnset[] = {
 static const struct LevelUpMove sLuxioLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
-    LEVEL_UP_MOVE( 1, MOVE_THUNDER_SHOCK),
+    LEVEL_UP_MOVE( 1, MOVE_NUZZLE),
     LEVEL_UP_MOVE( 1, MOVE_CHARGE),
-    LEVEL_UP_MOVE(12, MOVE_BITE),
+    LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE(18, MOVE_SPARK),
     LEVEL_UP_MOVE(24, MOVE_ROAR),
+    LEVEL_UP_MOVE(26, MOVE_PURSUIT),
     LEVEL_UP_MOVE(31, MOVE_VOLT_SWITCH),
     LEVEL_UP_MOVE(36, MOVE_SCARY_FACE),
     LEVEL_UP_MOVE(42, MOVE_THUNDER_WAVE),
@@ -10494,18 +10497,20 @@ static const struct LevelUpMove sLuxrayLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_WAVE),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
-    LEVEL_UP_MOVE( 1, MOVE_THUNDER_SHOCK),
+    LEVEL_UP_MOVE( 1, MOVE_NUZZLE),
     LEVEL_UP_MOVE( 1, MOVE_CHARGE),
     LEVEL_UP_MOVE( 1, MOVE_ELECTRIC_TERRAIN),
-    LEVEL_UP_MOVE(12, MOVE_BITE),
-    LEVEL_UP_MOVE(18, MOVE_SPARK),
-    LEVEL_UP_MOVE(24, MOVE_ROAR),
+    LEVEL_UP_MOVE( 1, MOVE_BITE),
+    LEVEL_UP_MOVE( 1, MOVE_SPARK),
+    LEVEL_UP_MOVE( 1, MOVE_ROAR),
+    LEVEL_UP_MOVE( 1, MOVE_PURSUIT),
     LEVEL_UP_MOVE(33, MOVE_VOLT_SWITCH),
     LEVEL_UP_MOVE(40, MOVE_SCARY_FACE),
     LEVEL_UP_MOVE(48, MOVE_BODY_SLAM),
     LEVEL_UP_MOVE(56, MOVE_CRUNCH),
     LEVEL_UP_MOVE(64, MOVE_DISCHARGE),
     LEVEL_UP_MOVE(70, MOVE_WILD_CHARGE),
+    LEVEL_UP_MOVE(72, MOVE_FUSION_BOLT),
     LEVEL_UP_MOVE(76, MOVE_BOLT_STRIKE),
     LEVEL_UP_END
 };
