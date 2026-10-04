@@ -9473,10 +9473,10 @@ static inline uq4_12_t GetParentalBondModifier(enum BattlerId battlerAtk)
 static inline uq4_12_t GetHydraModifier(enum BattlerId battlerAtk)
 {
     if (gSpecialStatuses[battlerAtk].hydraState == HYDRA_2ND_HIT)
-        return UQ_4_12(0.5);
+        return UQ_4_12(0.33);
     if (gSpecialStatuses[battlerAtk].hydraState == HYDRA_3RD_HIT)
-        return UQ_4_12(0.25);
-    return UQ_4_12(1.0);
+        return UQ_4_12(0.33);
+    return UQ_4_12(0.34);
 }
 
 bool32 BattlerHasStabForType(enum BattlerId battler, enum Type type)
